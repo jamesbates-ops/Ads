@@ -6,10 +6,10 @@ Brief: "The Sommelier's Find", editor brief, straight to camera, 9:16, target 1:
 
 | Cut | Hook line | Length | File |
 |---|---|---|---|
-| 1 | "It's the only place I buy my wine…" | 1:14.1 | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/d8d19690-07b6-417d-b8c0-d792f3627019.mp4 |
-| 2 | "Trust me, Châteauneuf can be this affordable…" | 1:14.1 | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/3ed8fb40-1e8d-4582-8fba-ad16313b2b2c.mp4 |
-| 3 | "This is where I buy all my Châteauneuf" | 1:14.1 | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/e0347f7c-697a-4b07-aeaf-d0815e013ee1.mp4 |
-| 4 | "If you don't like Châteauneuf, keep scrolling…" | 1:14.1 | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/fd7984c6-9ed3-4f9a-932f-cba8e0f956cf.mp4 |
+| 1 | "It's the only place I buy my wine…" | 1:14.1 | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/3dd993ca-9965-4af2-a520-b8fa0b682075.mp4 |
+| 2 | "Trust me, Châteauneuf can be this affordable…" | 1:14.1 | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/c2f2710c-6daf-4fe1-9c16-ed5a2f1c8cc2.mp4 |
+| 3 | "This is where I buy all my Châteauneuf" | 1:14.1 | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/0f2159a2-b9ff-4b45-b197-4a9b5f4e7a27.mp4 |
+| 4 | "If you don't like Châteauneuf, keep scrolling…" | 1:14.1 | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/83e47888-6eaf-44a7-a2d3-458ee86a44c1.mp4 |
 
 1080×1920, 24 fps, H.264 + AAC. Shots 2 to 11 are byte-identical across the four cuts (one shared body master, hook segments concatenated in front), so the timeline is locked from the body start in every cut.
 
@@ -48,7 +48,7 @@ Captions are burned in throughout, timed from a word-level transcript of the voi
 - Frame A (bottle): media 58bb154b-2da5-424d-bc8b-9946401bfc27
 - Frame B (glass): media dec362c8-6568-40ae-86d6-dd708ccb3803
 - Voice tracks and timeline: https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/93425187-9c3b-4e50-b0ac-8f72a9aa655e.tar
-- Assembly script: https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/73d8ee02-dc7e-47ab-88f4-e0000919c104.py
+- Assembly script: https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/5a462965-06b9-4915-9185-3962bbf37f30.py
 
 ## Open points for the editor
 
@@ -61,3 +61,4 @@ Captions are burned in throughout, timed from a word-level transcript of the voi
 - Container: 1080×1920, H.264 24 fps, AAC stereo 48 kHz, 74.15 s per cut.
 - Audio bed: brown-noise shop ambience only, no music. End card measures −31.4 LUFS with almost no energy above 1 kHz; the voiced section measures −15.4 LUFS, so the ambience sits about 16 LU under the voice.
 - Automated scene analysis of the hook-1 cut confirmed the structure: hook, price cards building during shot 3 and holding over the vineyard B-roll, wordmark in shot 7, bottle pack shot with the offer card in shot 9, end card.
+- Frame-level checks of the graphics (price cards, B-roll label, wordmark, offer card and pack shot, exclusive pill, end card) confirmed nothing covers the presenter's face. The offer card's large price originally ran past the card border; the card typography was tightened and all four cuts were re-rendered (v2 URLs above).
