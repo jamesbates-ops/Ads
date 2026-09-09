@@ -55,3 +55,9 @@ Captions are burned in throughout, timed from a word-level transcript of the voi
 - End card / CTA copy is a placeholder; the brief marks it TBC.
 - Runtime is 1:14 against a 1:04 target. Cutting shot 5 (B-roll) to 5 s and tightening the gaps between shots 6–8 would bring it to about 1:08 without touching the voice.
 - On-screen text lines follow the brief's suggestions and are for approval, not final copy.
+
+## QA checks on the final cuts
+
+- Container: 1080×1920, H.264 24 fps, AAC stereo 48 kHz, 74.15 s per cut.
+- Audio bed: brown-noise shop ambience only, no music. End card measures −31.4 LUFS with almost no energy above 1 kHz; the voiced section measures −15.4 LUFS, so the ambience sits about 16 LU under the voice.
+- Automated scene analysis of the hook-1 cut confirmed the structure: hook, price cards building during shot 3 and holding over the vineyard B-roll, wordmark in shot 7, bottle pack shot with the offer card in shot 9, end card.
