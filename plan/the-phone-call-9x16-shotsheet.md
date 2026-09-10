@@ -46,8 +46,58 @@ Source: *The Phone Call — Editor Brief*, 9:16, 1:36 total, 13 shots.
 - **Seed A** — POV, phone in hand, "Incoming Call / Chris", dinner table still covered. Drives shots 1–7, 10–13.
 - **Seed B** — high angle, marble island, open wooden crate of Raptor & Crimson, phone resting beside it. Drives shots 8–9 and the crate beat.
 
+## Reconciled cut grid (as built)
+
+The brief's per-shot durations are guides; the actual ElevenLabs reads overran three
+of them (shots 3, 4 and 11) and undershot two (7 and 13). Durations were rebalanced
+to the performance, holding the **1:36 total** exactly. The brief's call-timer
+readouts all survive within one second, so the rendered screens stay correct.
+
+| # | Start | Dur (brief → built) | Timer on screen | Actual elapsed at cut |
+|---|---|---|---|---|
+| 1 | 0:00 | 8 → 8 | incoming call | — |
+| 2 | 0:08 | 6 → 6 | 00:06 | 00:05 |
+| 3 | 0:14 | 9 → 10 | 00:12 | 00:11 |
+| 4 | 0:24 | 9 → 10 | 00:21 | 00:21 |
+| 5 | 0:34 | 6 → 6 | 00:30 | 00:31 |
+| 6 | 0:40 | 7 → 7 | 00:36 | 00:37 |
+| 7 | 0:47 | 10 → 8 | 00:43 | 00:44 |
+| 8 | 0:55 | 8 → 8 | 00:53 | 00:52 |
+| 9 | 1:03 | 6 → 6 | 01:01 | 01:00 |
+| 10 | 1:09 | 4 → 4 | 01:07 | 01:06 |
+| 11 | 1:13 | 9 → 10 | 01:11 | 01:10 |
+| 12 | 1:23 | 6 → 6 | 01:20 | 01:20 |
+| 13 | 1:29 | 8 → 7 | 01:26 | 01:26 |
+
+Total 96s. Call is answered at 0:02.5, which sets the timer origin.
+
+## Audio build
+
+Video is rendered **silent** — no face is ever on screen, so there is no lip-sync
+constraint and the dialogue is free voice-over. That buys exact control over casting,
+pacing and the phone-line treatment.
+
+- Frankie — ElevenLabs preset **Juno**, natural and close, light 2.5:1 compression.
+- Chris — ElevenLabs preset **Emmett**, through a 300–3400 Hz band-pass with 3:1
+  compression and +3 dB makeup: the phone-line EQ the brief asks for.
+- Three long reads (shots 3, 4, 11) are tightened 1.10x, shots 7/8 by 1.05x and
+  shot 9 by 1.15x — pitch-preserved, inaudible at conversational pace.
+- Ring: two synthesised double-pulses plus a low vibration, 0:00.2–0:02.5.
+- Bed: filtered pink-noise room tone under the whole spot.
+- Mastered to -16 LUFS / -1.5 dBTP.
+
+Master: media `1e90ba3e-ff8e-4993-ac2e-82119cdb23a2` (96.02s).
+
 ## Post
 
-1. Concatenate 13 clips in order (ffmpeg, no re-time — Seedance durations already match the cut).
-2. Burn captions for both speakers.
-3. End card over the tail of shot 13.
+1. Concatenate the 13 clips on the grid above.
+2. Lay the dialogue master against it (both start at 0:00).
+3. Burn captions for both speakers.
+4. End card over the tail of shot 13.
+
+## Known limitation
+
+The call timer and the app UI are rendered *by the model*, not composited. Generative
+video does not draw small UI text reliably, so the readouts should be checked shot by
+shot; any that drift need a tracked overlay in a finishing pass. Flagged rather than
+hidden.
