@@ -5,7 +5,20 @@ Timings come from the audio layout, not from transcription, so the cards land
 exactly on the reads. Frankie is white; Chris is amber and italic, so the two
 speakers read apart on mute without labels eating screen space.
 """
-import subprocess, sys, os
+import sys
+
+# line id -> (start, end, speaker), from the verified audio layout.
+# Frankie's reads carry an extra 1.1x over the base tempo at the client's note.
+W = {
+    "11":  (3.00, 3.79, "F"),  "12":  (4.15, 7.06, "C"),
+    "21":  (8.30, 12.88, "F"), "32":  (14.30, 22.68, "C"),
+    "41":  (23.30, 23.83, "F"), "42": (24.15, 32.45, "C"),
+    "51":  (33.30, 37.44, "F"), "62": (38.30, 44.62, "C"),
+    "71":  (45.30, 50.44, "F"), "72": (51.00, 52.61, "C"),
+    "81":  (54.15, 60.79, "F"), "91": (61.25, 67.08, "F"),
+    "102": (68.30, 71.47, "C"), "111":(72.30, 81.95, "F"),
+    "122": (83.30, 87.26, "C"), "131":(88.30, 93.46, "F"),
+}
 
 # line id -> (caption cards)   split at natural phrase boundaries
 CARDS = {
@@ -43,8 +56,8 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Frankie,Montserrat,62,&H00FFFFFF,&H00000000,&H96000000,-1,0,1,4,2,2,90,90,300,1
-Style: Chris,Montserrat,62,&H007FD4FF,&H00000000,&H96000000,-1,-1,1,4,2,2,90,90,300,1
+Style: Frankie,Montserrat,58,&H00FFFFFF,&H00000000,&H96000000,-1,0,1,4,2,2,90,90,330,1
+Style: Chris,Montserrat,58,&H007FD4FF,&H00000000,&H96000000,-1,-1,1,4,2,2,90,90,330,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -54,14 +67,10 @@ def ts(t):
     h = int(t // 3600); m = int(t % 3600 // 60); s = t % 60
     return f"{h}:{m:02d}:{s:05.2f}"
 
-def main(laypath, clipdir, out):
-    rows = [l.split() for l in open(laypath) if l.strip()]
+def main(out="captions.ass"):
     events = []
-    for lid, ms, tempo, who in rows:
-        dur = float(subprocess.check_output(
-            ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-             "-of", "csv=p=0", os.path.join(clipdir, f"p{lid}.wav")]))
-        start = int(ms) / 1000.0
+    for lid, (start, end, who) in W.items():
+        dur = end - start
         cards = CARDS[lid]
         # split the line's window between cards in proportion to their length
         weights = [len(c) for c in cards]
