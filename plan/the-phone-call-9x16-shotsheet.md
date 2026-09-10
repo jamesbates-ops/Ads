@@ -46,103 +46,106 @@ Source: *The Phone Call — Editor Brief*, 9:16, 1:36 total, 13 shots.
 - **Seed A** — POV, phone in hand, "Incoming Call / Chris", dinner table still covered. Drives shots 1–7, 10–13.
 - **Seed B** — high angle, marble island, open wooden crate of Raptor & Crimson, phone resting beside it. Drives shots 8–9 and the crate beat.
 
-## Cut grid (v2, as delivered)
+## Cut grid (v3, as delivered)
 
-Frankie's reads run **1.1x quicker** at the client's note, which shortened her lines
-enough to bring the whole spot back to the briefed **1:36 exactly**. Every shot was
-re-rendered at its native slot length, so v2 contains **no retiming at all** — every
-clip is a straight trim.
+Two client notes drove v3: the phone screen must show an **ongoing** call, never an
+incoming one; and Frankie needed more expression.
 
-Because the shots were re-rendered, each on-screen call timer was set to its **true**
-elapsed value rather than the briefed one, so the readouts are now exact instead of
-drifting by a second or two.
+Making the call already-connected has a knock-on: the brief's 3-second ring no longer
+makes sense against an in-progress screen, so the ring is gone. Rather than open a
+paid-social ad on three seconds of silence, the film now opens on Frankie already
+speaking at 0:01 — a stronger hook. That reflowed the grid; the whole spot still runs
+**1:36 exactly**, and every shot is a straight trim with **no retimed footage**.
 
-| # | Start | Dur | Timer on screen | Phone-only recut |
-|---|---|---|---|---|
-| 1 | 0:00 | 8 | incoming call | unchanged from v1 |
-| 2 | 0:08 | 6 | 00:05 | re-rendered |
-| 3 | 0:14 | 9 | 00:11 | re-rendered |
-| 4 | 0:23 | 10 | 00:20 | re-rendered |
-| 5 | 0:33 | 5 | 00:30 | re-rendered |
-| 6 | 0:38 | 7 | 00:35 | re-rendered |
-| 7 | 0:45 | 9 | 00:42 | re-rendered |
-| 8 | 0:54 | 7 | app B-roll | unchanged from v1 |
-| 9 | 1:01 | 7 | vineyard B-roll | re-rendered |
-| 10 | 1:08 | 4 | 01:05 | re-rendered |
-| 11 | 1:12 | 11 | 01:09 | re-rendered |
-| 12 | 1:23 | 5 | 01:20 | re-rendered |
-| 13 | 1:28 | 8 | 01:25 | re-rendered |
+Screen timers are now true elapsed time, on the basis that the call connected ~2s
+before the film opens. They no longer match the brief's table, which assumed a ring
+then an answer at 0:03 — that table is incompatible with an already-connected call.
 
-Total 96s. The call is answered at 0:02.5, which sets the timer origin.
+| # | Start | Dur | Screen |
+|---|---|---|---|
+| 1 | 0:00 | 7 | Chris · 00:02 |
+| 2 | 0:07 | 6 | Chris · 00:09 |
+| 3 | 0:13 | 9 | Chris · 00:15 |
+| 4 | 0:22 | 10 | Chris · 00:24 |
+| 5 | 0:32 | 5 | Chris · 00:34 |
+| 6 | 0:37 | 7 | Chris · 00:39 |
+| 7 | 0:44 | 10 | Chris · 00:46 |
+| 8 | 0:54 | 7 | app B-roll (no call screen) |
+| 9 | 1:01 | 7 | vineyard B-roll (no call screen) |
+| 10 | 1:08 | 4 | Chris · 01:10 |
+| 11 | 1:12 | 11 | Chris · 01:14 |
+| 12 | 1:23 | 5 | Chris · 01:25 |
+| 13 | 1:28 | 8 | Chris · 01:30 |
 
-## The phone-only rule (v2)
+Total 96s. No incoming-call or slide-to-answer state appears anywhere.
 
-The client's note: the second hand picking up plates and glasses did not render
-convincingly. **No second hand appears anywhere in the film now.** Only the phone
-hand is ever in frame.
+## Casting Frankie: why the voice changed
 
-This was applied to every shot that carried a second hand, not just the plate and
-glass beats — the broom pickup and the gesture beat were the same failure mode.
-Shots 1 and 8 already had a single hand and were left alone.
+The note was "Frankie is really flat". Since the delivery could not be judged by ear
+here, expressiveness was measured as **pitch variation (standard deviation in
+semitones)** across three different lines — which is what reads as flat when it is low.
 
-The brief's continuity rule "her free hand is always doing something" is therefore
-not followed literally. The clear-up now reads through two other channels:
+| Voice | Mean semitone sd | vs Emily |
+|---|---|---|
+| Emily (v2) | 2.62 | — |
+| **Gracie (v3)** | **3.78** | **+44%** |
+| Juno (v1) | 4.13 | +58% |
 
-- **Camera glances.** Where she used to reach, the point of view drifts across the
-  used plates, lingers on the bottle, and eases back — the look does the work the
-  hand used to.
-- **Set state between shots.** The table still empties shot by shot, which keeps the
-  brief's visual clock intact; it just happens off-camera rather than on.
+Two findings settled it. Emily measured 2.5–2.8 st on *every* line — consistently
+flat, not one bad take. And rewriting her lines with emphasis and punctuation made it
+marginally **worse** (2.45), so there was no fixing her in place. Qwen's instruction-
+driven engine did add expression but lifted her register 2.4–3.8 semitones and varied
+wildly by line (+16% to +63%), which makes her a different woman rather than a
+livelier Emily.
+
+So Frankie is now **Gracie** — same ElevenLabs engine as Chris, consistently
+expressive. This is a voice change that was not explicitly requested; Juno remains the
+more animated option if more is wanted.
 
 ## Audio build
 
-Video is rendered **silent**. No face is ever on screen, so there is no lip-sync
-constraint and the dialogue is free voice-over.
+- Frankie — ElevenLabs **Gracie**, 2.5:1 compression, **+2.2 dB**, 1.1x quicker.
+- Chris — ElevenLabs **Archie**, unchanged: 300–3400 Hz band-pass, 3:1 compression,
+  +3 dB makeup.
+- **No ring** — the call is already connected at frame one.
+- Bed: filtered pink-noise room tone. Mastered to -16 LUFS / -1.5 dBTP.
 
-- Frankie — ElevenLabs preset **Emily**, natural and close, 2.5:1 compression,
-  **1.1x quicker** than her base read.
-- Chris — ElevenLabs preset **Archie**, through a 300–3400 Hz band-pass with 3:1
-  compression and +3 dB makeup: the phone-line EQ the brief asks for.
-- Ring: two synthesised double-pulses plus a low vibration, 0:00.2–0:02.5, so the
-  first line lands at 0:03 as briefed.
-- Bed: filtered pink-noise room tone under the whole spot.
-- Mastered to -16 LUFS / -1.5 dBTP.
-
-## Captions
-
-49 cards, authored from the audio grid rather than transcribed, so they land exactly
-on the reads. Frankie white, Chris amber and italic — the two speakers separate on
-mute without spending screen space on labels. Montserrat, bottom third, heavy
-outline. Generator: `tools/build_captions.py`.
+The +2.2 dB on Frankie corrects a real problem caught in QA: Gracie reads quieter than
+Archie, and the first v3 mix had her sitting **2.0 dB under him** across the film.
+Leaving that would have undercut the very note this version was made to address. After
+the fix the two speakers sit **0.5 dB apart**.
 
 ## Verification performed
 
-- Every line sits inside its own shot window (checked programmatically).
-- Picture 96.00s against a 96.02s dialogue master.
-- Caption burn confirmed by frame-differencing the clean and captioned cuts:
-  1.7–6.0% of caption-band pixels change where cards are scheduled, 0.00% at 0.5s
-  and 95.5s where none are.
-- Dialogue level even across all 13 shot windows (−19 to −21 dBFS RMS, peaks −4.5
-  to −6.6, no clipping).
-- All 13 clips 1080×1920, 24fps.
+- All 16 lines sit inside their own shot windows (checked programmatically).
+- Picture 96.00s against a 96.02s dialogue master; all 13 clips 1080×1920, 24fps.
+- Caption burn confirmed by frame-differencing clean vs captioned: 1.6–6.0% of
+  caption-band pixels change where cards are scheduled, 0.00% at 0.3s, 50.0s and 95.0s
+  where none are (50.0s falls in the gap between Frankie's and Chris's lines in shot 7).
+- Speaker balance measured per shot: Frankie-only shots mean -20.7 dBFS, Chris-only
+  -20.2 dBFS.
+- Opening 0.9s measures -50.2 dBFS: room tone only, confirming the ring is gone.
 
 ## Delivered
 
 | | |
 |---|---|
-| Final film (v2) | media `22d7ce5f-7f45-44ee-a542-6b037bb182e3` — 96.00s, 1080×1920, 24fps, AAC 48k stereo |
-| Dialogue master (v2) | media `617ef32d-51ee-40c5-9769-e1fcccf35754` — 96.02s |
-| Final film (v1) | media `d6c3af2c-d287-4757-ad64-43b85d5495d8` — superseded |
-| Seed A (POV, incoming call) | media `5a4a2781-1a23-46c4-b1c1-d17d8eb8a67b` |
-| Seed B (crate on marble) | media `4e04b809-7aa3-40ec-954e-872038f45fcd` |
+| **Final film (v3)** | media `ff0367ee-a812-47c2-9792-d1d2f6ca3c4e` — 96.00s, 1080×1920, 24fps, AAC 48k stereo |
+| Dialogue master (v3) | media `8410dff1-78d7-4b7d-bec9-1827da4104f7` — 96.02s |
+| v3 pre-balance cut | media `3f2e1580-5769-480d-bf6d-12bef8a28027` — superseded |
+| Final film (v2) | media `22d7ce5f-7f45-44ee-a542-6b037bb182e3` — superseded |
+| Seed A (POV) | media `5a4a2781-1a23-46c4-b1c1-d17d8eb8a67b` |
+| Seed B (crate) | media `4e04b809-7aa3-40ec-954e-872038f45fcd` |
 
 ## Known limitations
 
 1. **The on-screen call timer is model-rendered, not composited.** Generative video
-   does not draw small UI text reliably, so the readouts should be checked shot by
-   shot; any that drift want a tracked overlay in a finishing pass. The v2 timers
-   were at least *specified* correctly, which v1's were not.
-2. **No end card.** Shot 13 holds ~2.5s of quiet tail for one, but brand assets were
-   not supplied.
-3. **No foley.** With no hands handling props, there is less to cover than in v1, but
-   a light pass of room and movement detail would still add realism.
+   does not draw small UI text reliably, so the readouts want checking shot by shot;
+   any that drift need a tracked overlay in a finishing pass. This matters more in v3,
+   where the in-progress screen is a stated client requirement rather than a nicety.
+2. **No end card.** Shot 13 holds ~2.6s of quiet tail for one; brand assets were never
+   supplied.
+3. **No foley.** Room tone only.
+4. **The brief's "free hand always busy" rule is not followed** — carried over from v2
+   at the client's instruction. The clear-up reads through camera glances and the
+   table's changing state between shots instead.
