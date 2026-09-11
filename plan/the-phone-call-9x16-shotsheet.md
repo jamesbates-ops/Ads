@@ -79,6 +79,57 @@ then an answer at 0:03 — that table is incompatible with an already-connected 
 
 Total 96s. No incoming-call or slide-to-answer state appears anywhere.
 
+## The phone screen (v4): composited, not generated
+
+The client supplied a real iOS in-call UI mock. That changes the approach entirely:
+the screen no longer has to be *drawn* by the video model, it can be **composited onto
+the phone**. The asset was rebuilt as HTML/CSS at 1170x2532 to match the reference
+(steel blue #3E6A8B, status bar, notch, six in-call buttons, red End, home indicator),
+with the name set to **Chris**.
+
+**Eleven versions were rendered, one per POV shot, each carrying that shot's own
+timer.** This retires the limitation flagged since v1: the call timer is no longer
+model-guessed, it is real typography on a real asset.
+
+| Shot | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 10 | 11 | 12 | 13 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Timer | 00:02 | 00:09 | 00:15 | 00:24 | 00:34 | 00:39 | 00:46 | 01:10 | 01:14 | 01:25 | 01:30 |
+
+Shots 8 and 9 are app and vineyard B-roll with no call screen and were left untouched.
+
+### Why Genjutsu rather than a hand-rolled composite
+
+A deterministic OpenCV planar track was attempted first and rejected on evidence: the
+phone is foreshortened and partly occluded by the hand, so the screen quad detects at
+aspect ~1.45-1.52 with only ~0.65 fill rather than a clean 2.17 rectangle. Tracking
+that blind, with no way to watch the footage back, was not reliable enough to trust.
+`hf_mult_replace_object` handles the tracking natively and was used instead.
+
+### Verification (all 11 shots)
+
+Since the footage cannot be viewed from here, each replacement was verified by
+differencing the original shot against the replaced one. A correct screen swap shows
+as a single compact blob, phone-screen shaped, that travels with the phone:
+
+| Shot | changed | blob | aspect | blob RGB |
+|---|---|---|---|---|
+| 1 | 12.7% | 8.7% | 2.12 | (56,82,109) |
+| 2 | 6.5% | 6.5% | 2.27 | (56,70,96) |
+| 3 | 6.9% | 6.7% | 2.25 | (58,81,107) |
+| 4 | 3.7% | 3.7% | 1.69 | (65,77,98) |
+| 5 | 6.7% | 6.6% | 2.19 | (61,81,110) |
+| 6 | 6.2% | 5.5% | 1.77 | (50,71,87) |
+| 7 | 4.3% | 4.4% | 1.54 | (56,67,92) |
+| 10 | 4.3% | 4.3% | 2.21 | (57,72,94) |
+| 11 | 4.3% | 4.4% | 2.20 | (51,80,109) |
+| 12 | 9.1% | 9.2% | 2.15 | (50,71,95) |
+| 13 | 2.0% | 9.5% | 2.30 | (50,74,105) |
+
+Every shot passes on three counts: the change is localised to one blob, the blob's
+aspect sits in phone-screen range (a real screen is 2.17), and its colour is
+blue-dominant (B > G > R) matching the reference, modulated by room light rather than
+pasted flat.
+
 ## Casting Frankie: why the voice changed
 
 The note was "Frankie is really flat". Since the delivery could not be judged by ear
@@ -130,7 +181,8 @@ the fix the two speakers sit **0.5 dB apart**.
 
 | | |
 |---|---|
-| **Final film (v3)** | media `ff0367ee-a812-47c2-9792-d1d2f6ca3c4e` — 96.00s, 1080×1920, 24fps, AAC 48k stereo |
+| **Final film (v4)** | media `805d8275-28f9-47e7-81ac-a71f4d07eaee` — 96.00s, 1080×1920, 24fps, AAC 48k stereo — real composited call screen |
+| Final film (v3) | media `ff0367ee-a812-47c2-9792-d1d2f6ca3c4e` — superseded |
 | Dialogue master (v3) | media `8410dff1-78d7-4b7d-bec9-1827da4104f7` — 96.02s |
 | v3 pre-balance cut | media `3f2e1580-5769-480d-bf6d-12bef8a28027` — superseded |
 | Final film (v2) | media `22d7ce5f-7f45-44ee-a542-6b037bb182e3` — superseded |
@@ -139,10 +191,8 @@ the fix the two speakers sit **0.5 dB apart**.
 
 ## Known limitations
 
-1. **The on-screen call timer is model-rendered, not composited.** Generative video
-   does not draw small UI text reliably, so the readouts want checking shot by shot;
-   any that drift need a tracked overlay in a finishing pass. This matters more in v3,
-   where the in-progress screen is a stated client requirement rather than a nicety.
+1. ~~The on-screen call timer is model-rendered.~~ **Resolved in v4** — the screen is
+   now a composited asset carrying real per-shot timers.
 2. **No end card.** Shot 13 holds ~2.6s of quiet tail for one; brand assets were never
    supplied.
 3. **No foley.** Room tone only.
