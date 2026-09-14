@@ -193,3 +193,116 @@ chosen by the user from a rendered set for exactly this reason.
    available if the VO is replaced — though note that replacing the audio breaks the
    lip-sync, since the mouth is synced to these exact takes. A re-voice means
    re-running the Wan 2.7 pass with the new stems.
+
+---
+
+# BUILD RECORD — v2: cut to the supplied voiceover
+
+User instruction: *"Try generating the same video but with this seed image. I have
+audio that works well, so please match the video frames to it."*
+
+So in v2 **the audio is the master**. The picture is cut to it, and the supplied
+WAV is muxed back in untouched rather than rebuilt.
+
+## Delivered
+
+**https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/aeece908-f418-4c39-8d31-eec87e984ae7.mp4**
+
+1080x1920, 30fps, 1530 frames, 51.015s, AAC 44.1kHz stereo.
+media_id `aeece908-f418-4c39-8d31-eec87e984ae7`.
+
+## What the supplied audio actually contains
+
+Transcribed with faster-whisper (`small.en`, word timestamps) rather than assumed.
+Two structural differences from the brief, both followed as delivered:
+
+1. **The hook is Hook 2** — "Yeah, this would keep us talking, all night." Only one
+   cut is therefore possible from this VO, not three.
+2. **Shot 7 is restructured.** The brief has `[sips it]` then "Ugh, it's so velvety
+   and rich, and those layers...". The VO drops "Ugh", puts **"It's so velvety and
+   rich."** *before* the sip, then takes a **2.30s sip pause** (30.48-32.78), then
+   continues "And those layers of blackcurrant...". That reads better than the
+   brief's order and the picture was built to match it.
+3. **The VO ends at 46.98s** and the file runs to 51.014s, leaving a **4.03s silent
+   hold** at the end — exactly where the brief's TBC end card belongs.
+
+## Shot grid — derived from word timings, not the brief's timecodes
+
+Cut points snapped to 30fps frame boundaries; every cut placed inside an
+inter-word gap.
+
+| # | In | Out | Frames | Dur | Frame | Line |
+|---|---|---|---|---|---|---|
+| 1 | 0.000 | 4.200 | 126 | 4.200 | B | hook |
+| 2 | 4.200 | 7.367 | 95 | 3.167 | B | "When I go on dates..." |
+| 3 | 7.367 | 10.800 | 103 | 3.433 | B | "Great clothes, great taste, in shape," |
+| 4 | 10.800 | 14.067 | 98 | 3.267 | B -> A | "but bringing this bottle to the table..." |
+| 5 | 14.067 | 21.200 | 214 | 7.133 | A tight | "It's a full-bodied Cabernet Sauvignon..." |
+| 6 | 21.200 | 28.733 | 226 | 7.533 | A tight -> B | "It's exactly like the man I want. Original..." |
+| 7 | 28.733 | 36.800 | 242 | 8.067 | B | "It's so velvety and rich." [SIP] "And those layers..." |
+| 8 | 36.800 | 44.267 | 224 | 7.467 | B | "The best part?... 75% off." |
+| 9 | 44.267 | 51.000 | 202 | 6.733 | B | "Then we can get to know each other better, all night." + 4s hold |
+
+Shot 4's bottle lift is cued to land on the word "bottle" at 11.60s, 0.80s into the shot.
+Shot 7's sip is cued at 1.75s-4.05s into the shot, matching the real gap.
+
+## Frames
+
+| Frame | job_id |
+|---|---|
+| Frame B — the user's supplied seed | media `792a2ea0-614e-467b-b98a-34b3624d6c94` |
+| Frame A (bottle lifted) | `95a7e863-dd9d-43cd-87fb-e1b191fb96d9` |
+| Frame A tight (label hero) | `e4ba6e14-4f96-4180-9137-d94ad884f453` |
+
+Note: the supplied seed is the text-to-image render from the first, reference-less
+batch of v1 — a different talent to the "Sara" likeness reference. That is the
+user's explicit choice.
+
+## Shot renders — Wan 2.7, each driven by its own slice of the client VO
+
+| # | job_id | source dur | slot | trim |
+|---|---|---|---|---|
+| 1 | `1712364c-e554-470c-954c-763c15069d51` | 5.039 | 4.200 | cut |
+| 2 | `e4536642-5070-4b70-a24f-960b6ffe39bd` | 4.040 | 3.167 | cut |
+| 3 | `ba5f4bb9-d1d9-48bd-a700-040740731236` | 4.040 | 3.433 | cut |
+| 4 | `eb0bedb5-7f80-495f-b220-b9978bfe6a8e` | 4.063 | 3.267 | cut |
+| 5 | `f878b3bb-aeef-44f9-8e5a-91c5b8f5982a` | 8.034 | 7.133 | cut |
+| 6 | `dae61f73-4270-47b0-b1ec-1863262b3a17` | 8.080 | 7.533 | cut |
+| 7 | `575073c0-3f13-4c45-91f7-b0d8378de28a` | 9.032 | 8.067 | cut |
+| 8 | `9e06bbae-5623-4efd-a633-e1264ace81e3` | 8.034 | 7.467 | cut |
+| 9 | `20fd6e7c-cb93-461d-a2bd-6f6488b4d6f4` | 7.036 | 6.733 | cut |
+
+All nine straight trims. No speed change anywhere.
+
+**Aspect trap:** seven of the nine shots returned at **1076x1928**, not 1080x1920,
+despite the 9:16 request. A concat of mixed dimensions silently produced a broken
+1076x1928 master on the first pass. Fixed by normalising every shot with
+`scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1`
+— scale-to-cover then centre-crop, so faces are not stretched (a plain scale would
+have squeezed them ~0.8% horizontally).
+
+## Verification
+
+- Picture: 1530 frames, all nine shots confirmed 1080x1920 before concat.
+- **Audio integrity:** decoded final vs supplied source — 51.014s vs 51.014s,
+  delta **0.0 ms**; envelope cross-correlation best lag **0 ms**, correlation
+  **1.0000**. The client's VO is carried through un-retimed and un-shifted.
+- **Cut placement:** at 10ms resolution, **8/8 cuts land in inter-word silence**.
+  Tightest are 36.800s (7.98% of peak, 200ms gap) and 44.267s (8.91%, 220ms gap);
+  the rest sit under 4.5%.
+
+**Still not verified:** I cannot see any frame — the media CDN is blocked from this
+workspace. Likeness, label legibility in shot 5, lip-sync quality and wine-level
+continuity remain unreviewed by me.
+
+## Open items carried forward
+
+1. **One cut only.** The supplied VO contains Hook 2, so the three-variant test
+   structure from the brief is not possible without VO for hooks 1 and 3.
+2. **No end card.** The 4.03s silent tail is held on her look. Brand assets were
+   never supplied.
+3. **Competitor names** stay spoken (they are in the client's own VO) but are not
+   burned into on-screen text, per the brief's shot table.
+4. **No fire-crackle bed.** v1 added one; v2 uses the supplied mix exactly as given,
+   since the instruction was to match the video to that audio. If room tone is
+   wanted under it, it can be laid without touching the dialogue.
