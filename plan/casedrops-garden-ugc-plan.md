@@ -26,6 +26,7 @@ Total run time is about 54s.
 ## Direction locked after review
 
 - **Expression:** calm, relaxed and natural. Soft eyes, at most a faint closed-mouth smile. No grin, no teeth-baring smile, nothing exaggerated. This applies to every clip.
+- **Voice:** American man in his mid-30s. Fairly deep, warm, a little gravelly. Cheeky and conspiratorial, like talking to a mate, at a natural conversational pace. Clip 1's audio becomes the voice reference for clips 2–5. All lip-sync clips are made with Seedance 2.0.
 - **Bottle:** once it is set down in 0a it stays exactly where it landed, upright with the label to camera, until he picks it up in clip 3.
 - **0a approved:** the bottle insert is the first 3.42s of the first render of clip 0. Editors cut it at 3.42s.
 - **0b:** the sit-down was re-rendered on its own, starting from the first frame after the cut, to calm his expression.
@@ -37,6 +38,7 @@ Total run time is about 54s.
 | 0a bottle insert (use 0:00–0:03.42) | Approved | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_154610_b92afa6d-9ea2-4c90-a565-39ed77fb7581.mp4 |
 | 0b sit-down, calmer expression (5s) | For review | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_155756_916f12fe-1717-4d38-b4e4-b1d79ea7a680.mp4 |
 | 0a + 0b joined preview (8.5s) | For review | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/44042ee4-f83b-4a32-afe3-dfc501ac3ca9.mp4 |
+| 1 hook line (11s) | For review | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_161248_42b21f47-b0ac-47b0-bf30-bc6b959b4914.mp4 |
 
 ## Notes
 
