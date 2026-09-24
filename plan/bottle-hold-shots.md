@@ -23,6 +23,12 @@ Reproduce the bottle exactly as in the product reference: same bottle shape and 
 Authentic UGC smartphone photo, vertical 9:16, natural skin texture, no retouched look, no added text, captions, graphics or watermarks.
 ```
 
+**White wine variant:** for a white bottle, the wine in the glass in the scene must be white too. Replace the paragraph starting "The only change:" with:
+
+```
+The only changes: (1) she now holds the bottle from the product reference image up toward the camera with BOTH hands, at about chest height, centred in frame, front label facing the camera squarely, fully visible and not covered by her fingers. One hand cradles the base, the other holds the body/shoulder of the bottle. Relaxed, natural grip, arms comfortable, a warm, genuine slight smile at the lens. (2) The glass of wine in the scene now contains WHITE wine instead of red: a clear, pale straw-gold white wine. Keep the same glass, the same fill level, the same position and the same reflections and lighting on the glass.
+```
+
 ### Step 2: 4s clip
 - Model: `kling3_0`, mode `pro`, aspect `9:16`, duration `4`, sound `off`, 6 credits per clip (Seedance 2.5 costs 48 credits for the same clip)
 - Media: the chosen still as `start_image`
@@ -38,8 +44,8 @@ Locked-off vertical smartphone UGC shot, same framing as the start frame through
 | # | Bottle | Bottle ref (media id) | Start frame (chosen) | 4s clip |
 |---|---|---|---|---|
 | 1 | Bottle 1 (screenshot upload) | `62c45db9-c994-4eab-88da-bd1589542755` | B: `4198faa2-6f23-449e-851a-116303f14f75` ([png](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_160218_4198faa2-6f23-449e-851a-116303f14f75.png)) | `d35dcb13-7f5b-421b-8f47-294256f2b74b` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_160758_d35dcb13-7f5b-421b-8f47-294256f2b74b.mp4)) |
-| 2 | — | — | — | — |
-| 3 | — | — | — | — |
-| 4 | — | — | — | — |
+| 2 | Bottle 2, **white** (Screenshot 13.24.10); glass changed to white wine | `53380bd0-04b9-431b-a22c-9c85bb926375` | A `e2916db5-a3f5-4bc1-bcbc-715f0aa7dc4c` / B `29b36c39-58ae-4bc3-8377-9ac98533cdbe`, not yet picked | — |
+| 3 | Bottle 3, red (Screenshot 13.25.07) | `b7836d6c-a4e1-4df2-9d5e-1f28e777b5b6` | A `9096fc17-85d9-4eb4-864b-9186a8491679` / B `b86a4106-2fe2-4010-ae0d-034f9b4b0135`, not yet picked | — |
+| 4 | Bottle 4, red (Dolum Estates) | `ce98b238-e22c-4468-91e0-4d13208498da` | A `45baef2e-2951-4042-9089-b8c8a2d5eaad` / B `b0b8618e-40e0-46b2-95c3-afc56787576d`, not yet picked | — |
 
 Frame A for bottle 1, not used: `81c73529-d013-4550-ae0f-bcc552092be8`.
