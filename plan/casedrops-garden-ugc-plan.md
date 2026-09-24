@@ -40,6 +40,6 @@ Total run time is about 54s.
 
 ## Notes
 
-- 0a and 0b are made as one 8s clip with a hard cut at about 3s. The editors can trim the insert to anywhere between 2 and 4s.
+- 0a comes from the first 3.42s of the first render and 0b is its own 5s clip. The editors can trim the insert to anywhere between 2 and 4s.
 - Prompts write the numbers out in words ("eighty dollars", "twenty bucks", "six", "a hundred-point", "seventy percent") and spell the brand as "Case-drops" so it is pronounced correctly.
 - The client has confirmed the claims and the disclosure.
