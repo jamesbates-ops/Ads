@@ -42,6 +42,8 @@ Total run time is about 54s.
 | 1 hook line (11s), first take | Rejected: monotone, chest tap | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_161248_42b21f47-b0ac-47b0-bf30-bc6b959b4914.mp4 |
 | 1 hook line, take A | For review. Transcript reads "under $20" not "20 bucks", so the wording may be off | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162808_865bf277-bef3-4e25-9abe-8b71b66cba70.mp4 |
 | 1 hook line, take B | Voice and movement approved, still smiling too much | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162807_2581e9be-f082-442f-b81a-bf462acec72b.mp4 |
+| 1 hook line, take C (less smiling) | For review. Word-perfect, same timing as B | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_164126_8e33b509-e64d-4268-91bc-0d0e059df176.mp4 |
+| 1 hook line, take D (less smiling) | For review. Word-perfect, same timing as B | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_164128_4415d61f-d22c-4aec-a45b-e66cc734aa00.mp4 |
 
 ## Notes
 
