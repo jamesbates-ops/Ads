@@ -25,8 +25,8 @@ Total run time is about 54s.
 
 ## Direction locked after review
 
-- **Expression:** calm, relaxed and natural. Soft eyes, at most a faint closed-mouth smile. No grin, no teeth-baring smile, nothing exaggerated. This applies to every clip.
-- **Voice:** American man in his mid-30s. Fairly deep, warm, a little gravelly. Cheeky and conspiratorial, like talking to a mate, at a natural conversational pace. It must be expressive, not monotone: varied pitch and clear emphasis on key words. Clip 1's audio becomes the voice reference for clips 2–5. All lip-sync clips are made with Seedance 2.0.
+- **Expression:** understated, close to deadpan. He doesn't smile while speaking and his mouth stays relaxed between words. The cheekiness comes from the voice and a knowing look in the eyes only. At most a split-second half-smirk at the end of a line. No grin, no teeth-baring smile. This applies to every clip.
+- **Voice:** American man in his mid-30s. Fairly deep, warm, a little gravelly. Cheeky and conspiratorial, like talking to a mate, at a natural conversational pace. It must be expressive, not monotone: varied pitch and clear emphasis on key words. The voice reference for clips 2–5 is the audio of clip 1 take B, uploaded as Higgsfield media `b8b62c2e-a463-4352-b3ff-47e95ed2d4e2`. All lip-sync clips are made with Seedance 2.0.
 - **Hands:** forearms rest on the table, with at most one small open-palm gesture. He never touches his chest, face or cap, and never taps his chest.
 - **Bottle:** once it is set down in 0a it stays exactly where it landed, upright with the label to camera, until he picks it up in clip 3.
 - **0a approved:** the bottle insert is the first 3.42s of the first render of clip 0. Editors cut it at 3.42s.
@@ -41,7 +41,7 @@ Total run time is about 54s.
 | 0a + 0b joined preview (8.5s) | For review | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/44042ee4-f83b-4a32-afe3-dfc501ac3ca9.mp4 |
 | 1 hook line (11s), first take | Rejected: monotone, chest tap | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_161248_42b21f47-b0ac-47b0-bf30-bc6b959b4914.mp4 |
 | 1 hook line, take A | For review. Transcript reads "under $20" not "20 bucks", so the wording may be off | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162808_865bf277-bef3-4e25-9abe-8b71b66cba70.mp4 |
-| 1 hook line, take B | For review. Transcript is word-perfect | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162807_2581e9be-f082-442f-b81a-bf462acec72b.mp4 |
+| 1 hook line, take B | Voice and movement approved, still smiling too much | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162807_2581e9be-f082-442f-b81a-bf462acec72b.mp4 |
 
 ## Notes
 
