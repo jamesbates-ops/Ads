@@ -59,11 +59,19 @@ The B-roll runs 35s against 28.6s of body voiceover, which leaves the editors tr
 
 The same approved clips recoloured with Seedance 2.5 `video_edit` (1080p, no audio, about 61 credits per 5s clip). Only the wine changes; the performance, timing and framing match the red version, so the editors can reuse the red edit shot for shot.
 
+QA: every white clip is 1082×1916, 121 frames, 5.04s, the same as its red source. I compared frame grabs and glass close-ups of each pair: the wine is pale straw-gold throughout and the glass, hands and framing are unchanged. The total was 7 clips × 61 credits = 427 credits. This set pairs naturally with the bottle 2 (white) hook clip, which already shows white wine in the glass.
+
 Edit prompt: `Change only the wine inside the glass: replace the red wine with a clear, pale straw-gold white wine for the entire video. The wine keeps exactly the same fill level, the same swirl and motion, and the same highlights and reflections. Keep everything else exactly identical and untouched: the woman, her face, hair, skin, clothing, hands and every movement and expression, the wine glass itself, the notebook, pen, phone, table, room, lighting, colour grade, camera framing and timing. No other changes, no added text or graphics.`
 
 | Clip | Source (red) | White version |
 |---|---|---|
-| BR6-F (pilot) | `4b406e6a-1662-48f6-8a9b-52a8d765ad2e` | `21c9a183-3d53-45c3-bdde-2261cfe403da` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_123158_21c9a183-3d53-45c3-bdde-2261cfe403da.mp4)), awaiting review |
+| BR1 | `a1d50190-5fea-4dda-bb5c-a8cd30def2f0` | `129b914c-7032-4578-8303-f814eda021c8` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130318_129b914c-7032-4578-8303-f814eda021c8.mp4)), checked |
+| BR2 | `35b5fc87-f4d6-4d28-8453-d9e3c4ed873b` | `65c85264-12fd-40cc-abad-f1e59788a182` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130319_65c85264-12fd-40cc-abad-f1e59788a182.mp4)), checked |
+| BR3 | `65089c32-0f58-4e41-9eba-27e9c32ea91e` | `9092df4d-076b-4491-aa63-43df3aa78325` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130316_9092df4d-076b-4491-aa63-43df3aa78325.mp4)), checked |
+| BR4 | `2a9ca973-d005-48ff-a622-01fd0c7c6036` | `21f9e07e-0708-402d-a61c-1108a197fb05` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130317_21f9e07e-0708-402d-a61c-1108a197fb05.mp4)), checked |
+| BR5 | `a681cbc1-2d9f-422c-9667-39c04a569bb7` | `96eecd1f-bba1-482c-a587-7ad2166bc29e` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130319_96eecd1f-bba1-482c-a587-7ad2166bc29e.mp4)), checked |
+| BR6-F | `4b406e6a-1662-48f6-8a9b-52a8d765ad2e` | `21c9a183-3d53-45c3-bdde-2261cfe403da` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_123158_21c9a183-3d53-45c3-bdde-2261cfe403da.mp4)), checked |
+| BR7 | `dcc75b10-e910-4f59-887e-b667786d9ed5` | `63830d4d-3502-4b1f-92e4-dc92aeca50f7` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130317_63830d4d-3502-4b1f-92e4-dc92aeca50f7.mp4)), checked |
 
 ## Voiceover takes (Romy, ElevenLabs)
 
