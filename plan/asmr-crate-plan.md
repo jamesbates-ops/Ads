@@ -88,7 +88,25 @@ What was done:
 
 Timeline of the finals: first hand at ~1.5s; clinks for bottles 1–5 at about 3.0, 5.3, 7.3, 9.2 and 11.5s; bottle 6 lands at ~16.7s (A) / ~16.5s (B); pull-back from ~18.5s to the end.
 
-Still to check by eye:
+**Final B was approved** and became the master for the bottle variants below.
+
+## Bottle variants (Ad Multiplier from Final B)
+
+Final B (media `49942b81-76a2-4283-9eaa-2f517756a9f6`, 22.999s) was re-rendered with Higgsfield Ad Multiplier (`video_edit`, 1080p, silent render). Each version swaps every placed bottle for one new wine, keeping the hand motion, timing, pull-back and Casedrops box. Versions 1 and 5 also swap the box back to the original **Winedrops** box. The reference for that box is the approved start frame (job `cef8b96e-…`), not the selfie seed, so no person could leak into the render.
+
+Ad Multiplier returned every version 7 frames short (545 of 552 frames). Each was stretched by ×1.0128 back to exactly 22.999s and given Final B's original audio (clinks and birdsong), so each bottle lands on its original clink. QC on every final: 23.0s, 1080×1920, AAC, and motion sync against Final B within ±2 frames in all four windows.
+
+| Output | Bottle reference | Box | Ad Multiplier job | Final |
+|---|---|---|---|---|
+| 1 | `915dcf31-…` dark glass, black label with gold script, red seal | Winedrops | `f9d9e64b-0e02-459d-9275-91770b0ebb5e` | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/46652a3e-967a-4c6f-a491-f90a9d856750.mp4 |
+| 2 | `7153bc7f-…` green glass white wine, white label with green border | Casedrops | `0718a263-f48a-480d-8932-c33c0a6394e1` | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/e5bb2d8f-706b-44c4-9617-90d303392825.mp4 |
+| 3 | `dc39f0c8-…` dark glass, cream textured label with red crest | Casedrops | `dbf7d67a-7ca4-4431-ada1-c3165028f7c8` | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/8f15d2f4-cf94-429e-8478-fa772d0fb02b.mp4 |
+| 4 | `90418787-…` Dolum Estates, white label with triangle graphic | Casedrops | `25a5120e-6320-4759-8de7-3a8bf5f22618` | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/d661a61c-91c1-4e7d-b066-d6920feef122.mp4 |
+| 5 | `aa8b32d6-…` dark glass, mosaic sun label | Winedrops | `1306e81f-2896-4cb4-8953-35b44ba741da` | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/5b83e10e-725a-4f1c-b7c3-1e5fe425ae60.mp4 |
+
+Checked by measurement only. Label text, bottle shape and the box logo still need a look by eye.
+
+Still to check by eye on Final B:
 - The logo on the box. Genjutsu's prompt rewriter read the new box as "Casedrops", so check that the brand name renders correctly.
 - The sixth bottle's label.
 - The join at 15.0s.
