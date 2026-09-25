@@ -9,7 +9,7 @@ Format: one continuous shot in vertical 9:16 at 1080p, about **23 seconds** long
 | Role | What it shows | media_id |
 |---|---|---|
 | Table setting | Sunny outdoor patio: herringbone red-brown brick paving, round white marble table, ornate dark metal chairs, a leafy tree casting dappled shade, a red brick wall with built-in planters, and a white wall with black-framed glass doors | `95e4b22c-40d7-43c4-bd20-bd0f3f1217ac` |
-| Wine | Dark glass bottle with a maroon foil capsule and a black label with gold/white lettering and a small red bird emblem | `a0f72f8b-0e2d-4378-92d5-778ba7558c0d` |
+| Wine | Dark glass bottle with a maroon foil capsule and a dark label with a gold "E" crest, gold/white lettering and a small red bird emblem | `a0f72f8b-0e2d-4378-92d5-778ba7558c0d` |
 | Box | Brown cardboard Winedrops delivery box with purple printing. The seed photo is a selfie, so only the box is used. | `0861f5e1-5fe0-4da1-bdc1-f2af2b19e89c` |
 
 ## Timeline
@@ -44,6 +44,25 @@ Label direction: every bottle is set down with its label facing the camera, so t
 
 > Locked-off static shot, vertical, photoreal. A brown cardboard Winedrops delivery box with purple printing sits centred on a round white marble table on a sunny brick patio, with dappled leaf shadows gently moving across the table. The camera does not move. One at a time, a hand enters from the right holding a dark wine bottle with a maroon foil capsule and a black label with gold lettering and a small red bird (exactly like the reference bottle). The hand sets the bottle down upright on the marble in front of the box, label facing the camera, with a soft crisp glass clink, then leaves the frame. This repeats slowly and calmly until there are exactly six identical bottles standing in a neat row in front of the box, evenly spaced. After the sixth bottle nothing moves for a moment. Then the camera slowly and smoothly pulls back to a slightly wider framing, keeping the box and the six bottles centred, revealing more of the patio, and holds. Audio: ASMR. Gentle birdsong from the tree throughout, a faint breeze in the leaves, and a clean delicate glass-on-marble clink each time a bottle lands. No music, no voices, no speech.
 
-## Files
+## Approved start frame
 
-Filled in as assets are approved.
+Frame 1 of 2 was approved (job `cef8b96e-d47e-455e-9a0e-6a1f4f396352`, 1536×2752). The Winedrops box sits in the centre foreground of a long white marble table on the brick patio. Behind it are a large white-and-pink flower arrangement, wine glasses and a silver ice bucket, with the trees and brick softly out of focus.
+
+- Still: https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_110452_cef8b96e-d47e-455e-9a0e-6a1f4f396352.png
+- Rejected alternative (round table): https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_110452_b0dd5c8d-1e02-41e7-8169-66ac411e1690.png
+
+## Video takes
+
+All takes are 1080×1920 at 24 fps, 23.05s long, with stereo audio at 32 kHz. None of them contains speech. This was checked with Whisper, but the timings below come from audio-transient and motion analysis, not from watching the takes. Bottle count and label orientation still need someone to check by eye.
+
+| Take | Model | Job | Clinks (strong transients) | Hand activity | Pull-back | Notes |
+|---|---|---|---|---|---|---|
+| A | Seedance 2.5 | `6d094bac-89a8-4efd-9f3f-aee20a90db3f` | ~6.2, 8.6, 11.2, 13.5, 14.5, 15.8s | Six separate bursts at ~5, 8, 10.5, 13, 14.5 and 16.5s, still between | 18.5–23s, eased in and out | Most even rhythm; clinks quieter |
+| B | Seedance 2.5 | `c4d5b2ee-cfd8-486f-9d5d-8993b98c6787` | 6.0, 8.3, 10.3, 12.2, 13.5, 14.5s | Continuous 4.5–14.5s | 19–23s | Loudest, cleanest clinks; placements speed up towards the end |
+| C | Wan 3.0 | `80043fd2-fbed-4e54-80fd-f0d2ac357469` | Irregular: 4.4, 8.8, 15.3, 18.2, 19.2s | Only ~4–5 bursts (2.5, 5.5, 11, 13–14.5s) | Starts early at ~16s and overlaps clinks at 18–19s | Weakest. Audio ~13 dB quieter, 30 fps, and the bottle comes from the text description only because Wan can't combine a start frame with reference images. |
+
+Both Seedance takes open with about 4.5s of stillness before the first hand appears, which is longer than the 1.5s in the plan. Trimming the first ~3s in the edit brings the first bottle in at ~1.5–2s and gives a ~20s ad.
+
+- Take A: https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_111045_6d094bac-89a8-4efd-9f3f-aee20a90db3f.mp4
+- Take B: https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_111045_c4d5b2ee-cfd8-486f-9d5d-8993b98c6787.mp4
+- Take C: https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_111056_80043fd2-fbed-4e54-80fd-f0d2ac357469.mp4
