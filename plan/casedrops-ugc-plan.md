@@ -35,7 +35,17 @@ Voice: a fun, young American woman. Chosen voice: **Romy** (Higgsfield preset `2
 
 Keyframes: A = Master A, the writing pose. K_B = pen down, phone in hand, scrolling. K_C = phone face-down, glass held at chest height. Every clip: Kling 3.0 Pro, 9:16, 5s, no sound, 7.5 credits with an end frame.
 
-Keyframe candidates (not yet picked): K_B-1 `b0ddd03b-46ab-420e-9cc1-ba0165dccad2`, K_B-2 `43a201e8-9ab0-440e-bc96-762f62fc813a`; K_C-1 `36efc109-9307-41c6-9ca9-673d10744af7`, K_C-2 `042137e5-f0f7-402b-b70b-5c22b1cd2160`.
+Chosen keyframes: A = `44cec481-6527-4ddd-950f-8ef11f02ea90`, K_B = `43a201e8-9ab0-440e-bc96-762f62fc813a` (option 2), K_C = `042137e5-f0f7-402b-b70b-5c22b1cd2160` (option 2). Unused: K_B-1 `b0ddd03b-46ab-420e-9cc1-ba0165dccad2`, K_C-1 `36efc109-9307-41c6-9ca9-673d10744af7`.
+
+| Clip | Job | Clip file |
+|---|---|---|
+| BR1 | `a1d50190-5fea-4dda-bb5c-a8cd30def2f0` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113156_a1d50190-5fea-4dda-bb5c-a8cd30def2f0.mp4) |
+| BR2 | `35b5fc87-f4d6-4d28-8453-d9e3c4ed873b` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113158_35b5fc87-f4d6-4d28-8453-d9e3c4ed873b.mp4) |
+| BR3 | `65089c32-0f58-4e41-9eba-27e9c32ea91e` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_65089c32-0f58-4e41-9eba-27e9c32ea91e.mp4) |
+| BR4 | `2a9ca973-d005-48ff-a622-01fd0c7c6036` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_2a9ca973-d005-48ff-a622-01fd0c7c6036.mp4) |
+| BR5 | `a681cbc1-2d9f-422c-9667-39c04a569bb7` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_a681cbc1-2d9f-422c-9667-39c04a569bb7.mp4) |
+| BR6 | `9f8447ca-6037-4dc9-8113-1d21e277b414` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_9f8447ca-6037-4dc9-8113-1d21e277b414.mp4) |
+| BR7 | `dcc75b10-e910-4f59-887e-b667786d9ed5` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113146_dcc75b10-e910-4f59-887e-b667786d9ed5.mp4) |
 
 The B-roll runs 35s against 28.6s of body voiceover, which leaves the editors trim room.
 
