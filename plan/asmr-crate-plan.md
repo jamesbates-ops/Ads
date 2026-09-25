@@ -66,3 +66,29 @@ Both Seedance takes open with about 4.5s of stillness before the first hand appe
 - Take A: https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_111045_6d094bac-89a8-4efd-9f3f-aee20a90db3f.mp4
 - Take B: https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_111045_c4d5b2ee-cfd8-486f-9d5d-8993b98c6787.mp4
 - Take C: https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_111056_80043fd2-fbed-4e54-80fd-f0d2ac357469.mp4
+
+## Revision 2: take B with the correct box and a sixth bottle
+
+Feedback: take B worked best as a video, but it only shows five bottles, and the box carried the wrong logo. The corrected box image is media `598a3ccd-d96b-46fd-b1d2-3e304def36b8`.
+
+What was done:
+
+1. **Trim.** Take B was cut to 3.0–18.0s (media `46caab7b-abc4-4c2a-91bf-afabeec888bd`). That leaves 1.5s of stillness, then bottles 1–5, ending on a still frame before the original pull-back.
+2. **Box swap, two versions.** Genjutsu (`hf_mult_replace_object`, job `246f1496-8cab-4520-8516-28afc52c06ad`) and Seedance 2.5 `video_edit` (job `be6c89f7-f8ac-4080-be67-f5135dbd4eae`) both ran at 1080p. Both came back 7 frames short (14.71s) and drifted up to 4 frames ahead of the audio. Each was stretched back to exactly 15.0s, which puts it within 1 frame of the original motion, and take B's original audio was laid back on. The results are media `74fe0c29-…` (Genjutsu) and `835955a6-…` (Seedance).
+3. **Sixth bottle and pull-back.** Each corrected clip was extended forward 8s with Seedance 2.5 `video_extension` (jobs `0af155aa-cb64-4601-827a-c902111b84dd` and `42fdd6fc-2b8e-42db-a0fb-ee2c8fbcbd08`). A hand sets a sixth bottle centred in front of the row of five with one clink (1.7s / 1.5s into the extension), there is a still beat, and then a centred pull-back. At the end the original view fills the middle ~80% (A) or ~84% (B) of the frame.
+4. **Assembly.** Each clip was joined to its extension with a 4-frame blend at the join. The extension's birdsong was raised ~6 dB to match the original, and the audio fades in over 0.25s and out over 1.0s. Loudness was normalised with a linear gain and peaks capped at -1.5 dBTP. The mix is **not** limited up to -14 LUFS because that would squash the clinks. It lands at -17.5 LUFS (A) and -18.4 LUFS (B), and platforms raise or lower it from there.
+5. **Updated still.** The approved start frame was re-rendered with the corrected box (job `8883bde1-3301-475a-826d-2d5e7344c198`). Only the box area changed: mean pixel difference elsewhere is ≤2/255.
+
+### Final cuts (23.0s, 1080×1920, 24 fps, AAC 256k)
+
+| Cut | Box swap | URL |
+|---|---|---|
+| Final A | Genjutsu | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/86edb98e-6336-4587-bd0e-7cdaeeb4e110.mp4 |
+| Final B | Seedance video edit | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/49942b81-76a2-4283-9eaa-2f517756a9f6.mp4 |
+
+Timeline of the finals: first hand at ~1.5s; clinks for bottles 1–5 at about 3.0, 5.3, 7.3, 9.2 and 11.5s; bottle 6 lands at ~16.7s (A) / ~16.5s (B); pull-back from ~18.5s to the end.
+
+Still to check by eye:
+- The logo on the box. Genjutsu's prompt rewriter read the new box as "Casedrops", so check that the brand name renders correctly.
+- The sixth bottle's label.
+- The join at 15.0s.
