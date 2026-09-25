@@ -44,6 +44,8 @@ Total run time is about 54s.
 | 1 hook line, take B | Voice and movement approved, still smiling too much | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162807_2581e9be-f082-442f-b81a-bf462acec72b.mp4 |
 | 1 hook line, take C (less smiling) | Not used | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_164126_8e33b509-e64d-4268-91bc-0d0e059df176.mp4 |
 | 1 hook line, take D (less smiling) | **Approved** | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_164128_4415d61f-d22c-4aec-a45b-e66cc734aa00.mp4 |
+| 2 Casedrops line, take A (8s) | For review. Word-perfect | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_083048_765a666d-79cf-47d3-82c4-92aa09d568df.mp4 |
+| 2 Casedrops line, take B (8s) | For review. Word-perfect | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_083049_d2b8f06f-59f7-4ded-8019-b2b014fc5818.mp4 |
 
 ## Notes
 
