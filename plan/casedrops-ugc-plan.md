@@ -21,34 +21,36 @@ Voice: a fun, young American woman. Chosen voice: **Romy** (Higgsfield preset `2
 
 **Hooks:** the four bottle-hold clips in `bottle-hold-shots.md` (4s, silent), with the hook voiceover over them. H1 claims a specific price, so it must go over the bottle that price is true for.
 
-**Body B-roll:** every clip starts from one master still (her seated at the table), so the room, light, outfit and props stay consistent. The planned clips:
+**Body B-roll:** one continuous take cut into seven clips, all in Master A's framing (`44cec481-6527-4ddd-950f-8ef11f02ea90`) with no close-ups. Each clip starts on the exact frame the previous clip ends on, so every cut matches. The phone screen always faces away from camera.
 
-| Clip | Dur | Action | Suggested line |
-|---|---|---|---|
-| BR1 | 5s | Medium shot: writing in the notebook, relaxed, not looking at camera | S1 |
-| BR2 | 5s | Close-up: pen moving across the notebook page, glass of wine soft in the background | S1 / S2 |
-| BR3 | 5s | She picks up her phone and scrolls, with a small smile at something on screen | S2 |
-| BR4 | 5s | Close-up: phone in hand, thumb scrolling. The screen can be flat green so the editors can drop in the Casedrops app | S2 |
-| BR5 | 5s | Puts the pen down, lifts the glass, sips, sets it back and goes on writing | S3 |
-| BR6 | 4s | Swirls the glass, looks at the wine, content | S4 |
-| BR7 | 5s | Glances up at camera with a knowing smile and raises the glass slightly, then sips | S5 (closer) |
+| Clip | Start → end frame | Dur | Action | Sits under |
+|---|---|---|---|---|
+| BR1 | A → A | 5s | Writing in the notebook | S1 |
+| BR2 | A → A | 5s | Still writing, glances up at the wine for a beat, back to writing | S1 / S2 |
+| BR3 | A → K_B | 5s | Puts the pen down, picks up her phone, starts scrolling | S2 |
+| BR4 | K_B → K_B | 5s | Scrolling, small smile at something on screen | S2 / S3 |
+| BR5 | K_B → K_C | 5s | Sets the phone face-down, picks up the glass, sips, holds it at chest height | S3 |
+| BR6 | K_C → K_C | 5s | Swirls the glass, looks at the wine, content | S4 |
+| BR7 | K_C → (free) | 5s | Glances up at camera with a knowing smile, raises the glass slightly, sips | S5 closer |
 
-The body voiceover runs about 28s, and one hook adds 4–7s.
+Keyframes: A = Master A, the writing pose. K_B = pen down, phone in hand, scrolling. K_C = phone face-down, glass held at chest height. Every clip: Kling 3.0 Pro, 9:16, 5s, no sound, 7.5 credits with an end frame.
 
-Master still candidates (gpt_image_2_5, 2k, 9:16, seed as reference): A `44cec481-6527-4ddd-950f-8ef11f02ea90`, B `651fe076-dca1-44c9-b4e1-59f0521f70d8`. Not yet picked.
+Keyframe candidates (not yet picked): K_B-1 `b0ddd03b-46ab-420e-9cc1-ba0165dccad2`, K_B-2 `43a201e8-9ab0-440e-bc96-762f62fc813a`; K_C-1 `36efc109-9307-41c6-9ca9-673d10744af7`, K_C-2 `042137e5-f0f7-402b-b70b-5c22b1cd2160`.
+
+The B-roll runs 35s against 28.6s of body voiceover, which leaves the editors trim room.
 
 ## Voiceover takes (Romy, ElevenLabs)
 
-| Clip | Text sent to the voice engine | Take A | Take B | Status |
+| Clip | Text sent to the voice engine | Take A | Take B | Chosen |
 |---|---|---|---|---|
-| H1 | This bottle usually costs eighty dollars... I got it for twenty dollars! Here's how. | `382debb8` 6.96s | `5c5312cd` 6.96s | pick |
-| H2 | This wine is flawless, and I got it for seventy percent off! Here's how. | `f0daa4d4` 5.12s | `8cc942cc` 5.20s | pick |
-| H3 | I love great wine... but I LOVE a deal! Here's how I got both. | `975826aa` 4.56s | — | **approved** |
-| S1 | This is Casedrops! It's a community where great wines are delivered to you for FREE, at trade prices. | `b2627791` 8.00s | — | **approved** |
-| S2 | Just choose a bottle, reserve it in your cellar, and then press deliver once you hit six bottles! | `dfb6912a` 6.00s | `34e88bfc` 6.08s | pick |
-| S3 | And unlike other services, if you don't like the wine, just let them know, and you'll get a FULL refund. | `38f70e25` 6.56s | `67066146` 7.52s | pick |
-| S4 | So if you don't like it, you can ALWAYS get your money back. | `26113a5f` 4.80s | `8620c3db` 4.00s | pick |
-| S5 | Something tells me... you won't, though. | `7708925f` 3.28s | `f9eefeda` 3.04s | pick |
+| H1 | This bottle usually costs eighty dollars... I got it for twenty dollars! Here's how. | `382debb8` 6.96s | `5c5312cd` 6.96s | **A** |
+| H2 | This wine is flawless, and I got it for seventy percent off! Here's how. | `f0daa4d4` 5.12s | `8cc942cc` 5.20s | **B** |
+| H3 | I love great wine... but I LOVE a deal! Here's how I got both. | `975826aa` 4.56s | — | **A** |
+| S1 | This is Casedrops! It's a community where great wines are delivered to you for FREE, at trade prices. | `b2627791` 8.00s | — | **A** |
+| S2 | Just choose a bottle, reserve it in your cellar, and then press deliver once you hit six bottles! | `dfb6912a` 6.00s | `34e88bfc` 6.08s | **B** |
+| S3 | And unlike other services, if you don't like the wine, just let them know, and you'll get a FULL refund. | `38f70e25` 6.56s | `67066146` 7.52s | **B** |
+| S4 | So if you don't like it, you can ALWAYS get your money back. | `26113a5f` 4.80s | `8620c3db` 4.00s | **B** |
+| S5 | Something tells me... you won't, though. | `7708925f` 3.28s | `f9eefeda` 3.04s | **B** |
 
 The IDs are Higgsfield job IDs, shortened to the first block.
 
