@@ -30,7 +30,7 @@ Voice: a fun, young American woman. Chosen voice: **Romy** (Higgsfield preset `2
 | BR3 | A → K_B | 5s | Puts the pen down, picks up her phone, starts scrolling | S2 |
 | BR4 | K_B → K_B | 5s | Scrolling, small smile at something on screen | S2 / S3 |
 | BR5 | K_B → K_C | 5s | Sets the phone face-down, picks up the glass, sips, holds it at chest height | S3 |
-| BR6 | K_C → K_C | 5s | Swirls the glass with a clear wrist motion so the wine spins round the bowl, then lets it settle | S4 |
+| BR6 | K_C → K_C | 5s | Swirls the glass with a clear wrist motion; the wine glides gently low in the bowl with no sloshing, then settles | S4 |
 | BR7 | K_C → (free) | 5s | Glances up at camera with a knowing smile, raises the glass slightly, sips | S5 closer |
 
 Keyframes: A = Master A, the writing pose. K_B = pen down, phone in hand, scrolling. K_C = phone face-down, glass held at chest height. Every clip: Kling 3.0 Pro, 9:16, 5s, no sound, 7.5 credits with an end frame.
@@ -45,8 +45,10 @@ Chosen keyframes: A = `44cec481-6527-4ddd-950f-8ef11f02ea90`, K_B = `43a201e8-9a
 | BR4 | `2a9ca973-d005-48ff-a622-01fd0c7c6036` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_2a9ca973-d005-48ff-a622-01fd0c7c6036.mp4) |
 | BR5 | `a681cbc1-2d9f-422c-9667-39c04a569bb7` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_a681cbc1-2d9f-422c-9667-39c04a569bb7.mp4) |
 | BR6 (v1, rejected: swirl too weak) | `9f8447ca-6037-4dc9-8113-1d21e277b414` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_9f8447ca-6037-4dc9-8113-1d21e277b414.mp4) |
-| BR6-A (redo, end frame K_C; seamless into BR7) | `1aa4871e-b357-434a-8eb5-6c6210246a8a` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_115122_1aa4871e-b357-434a-8eb5-6c6210246a8a.mp4) |
+| BR6-A (redo, end frame K_C; hand motion approved, wine sloshed too much) | `1aa4871e-b357-434a-8eb5-6c6210246a8a` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_115122_1aa4871e-b357-434a-8eb5-6c6210246a8a.mp4) |
 | BR6-B (redo, free end; cut into BR7 may not match) | `c0c74b6f-2a37-4e9e-bcdb-43a92c990251` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_115122_c0c74b6f-2a37-4e9e-bcdb-43a92c990251.mp4) |
+| BR6-C (gentle swirl, end frame K_C) | `7b15298c-f2b8-4055-a2cf-0ca7153f9291` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_115831_7b15298c-f2b8-4055-a2cf-0ca7153f9291.mp4) |
+| BR6-D (gentle swirl, end frame K_C) | `79480dae-88d2-4e73-a7ec-9df2f596ec58` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_115830_79480dae-88d2-4e73-a7ec-9df2f596ec58.mp4) |
 | BR7 | `dcc75b10-e910-4f59-887e-b667786d9ed5` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113146_dcc75b10-e910-4f59-887e-b667786d9ed5.mp4) |
 
 The B-roll runs 35s against 28.6s of body voiceover, which leaves the editors trim room.
