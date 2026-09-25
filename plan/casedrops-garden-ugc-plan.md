@@ -26,7 +26,7 @@ Total run time is about 54s.
 ## Direction locked after review
 
 - **Expression:** understated, close to deadpan. He doesn't smile while speaking and his mouth stays relaxed between words. The cheekiness comes from the voice and a knowing look in the eyes only. At most a split-second half-smirk at the end of a line. No grin, no teeth-baring smile. The resting face between lines stays neutral too, with the corners of the mouth level, not turned up. This applies to every clip.
-- **Voice:** American man in his mid-30s. Fairly deep, warm, a little gravelly. Cheeky and conspiratorial, like talking to a mate, at a natural conversational pace. It must be expressive, not monotone: varied pitch and clear emphasis on key words. The voice reference for clips 2–5 is the audio of clip 1 take B, uploaded as Higgsfield media `b8b62c2e-a463-4352-b3ff-47e95ed2d4e2`. All lip-sync clips are made with Seedance 2.0.
+- **Voice:** American man in his mid-30s. Fairly deep, warm, a little gravelly. Cheeky and conspiratorial, like talking to a mate, at a natural conversational pace. It must be expressive, not monotone: varied pitch and clear emphasis on key words. From clip 2 on, the delivery should sound like a genuine, off-the-cuff recommendation to a friend: relaxed, a little more intimate, natural micro-pauses, nothing salesy and no radio-ad voice. The voice reference for clips 2–5 is the audio of clip 1 take B, uploaded as Higgsfield media `b8b62c2e-a463-4352-b3ff-47e95ed2d4e2`. All lip-sync clips are made with Seedance 2.0.
 - **Hands:** forearms rest on the table, with at most one small open-palm gesture. He never touches his chest, face or cap, and never taps his chest.
 - **Bottle:** once it is set down in 0a it stays exactly where it landed, upright with the label to camera, until he picks it up in clip 3.
 - **0a approved:** the bottle insert is the first 3.42s of the first render of clip 0. Editors cut it at 3.42s.
@@ -44,8 +44,10 @@ Total run time is about 54s.
 | 1 hook line, take B | Voice and movement approved, still smiling too much | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162807_2581e9be-f082-442f-b81a-bf462acec72b.mp4 |
 | 1 hook line, take C (less smiling) | Not used | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_164126_8e33b509-e64d-4268-91bc-0d0e059df176.mp4 |
 | 1 hook line, take D (less smiling) | **Approved** | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_164128_4415d61f-d22c-4aec-a45b-e66cc734aa00.mp4 |
-| 2 Casedrops line, take A (8s) | For review. Word-perfect | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_083048_765a666d-79cf-47d3-82c4-92aa09d568df.mp4 |
-| 2 Casedrops line, take B (8s) | For review. Word-perfect | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_083049_d2b8f06f-59f7-4ded-8019-b2b014fc5818.mp4 |
+| 2 Casedrops line, take A (8s) | Rejected: not conversational enough | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_083048_765a666d-79cf-47d3-82c4-92aa09d568df.mp4 |
+| 2 Casedrops line, take B (8s) | Rejected: not conversational enough | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_083049_d2b8f06f-59f7-4ded-8019-b2b014fc5818.mp4 |
+| 2 Casedrops line, take C (conversational) | For review. Word-perfect | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_084154_81676256-24ba-4083-87b4-496b2a4e92ce.mp4 |
+| 2 Casedrops line, take D (conversational) | For review. Word-perfect | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_084154_9fdebc9f-b14f-45ac-8d7a-a31a7ff9b2ed.mp4 |
 
 ## Notes
 
