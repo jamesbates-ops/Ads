@@ -49,8 +49,8 @@ Chosen keyframes: A = `44cec481-6527-4ddd-950f-8ef11f02ea90`, K_B = `43a201e8-9a
 | BR6-B (redo, free end; cut into BR7 may not match) | `c0c74b6f-2a37-4e9e-bcdb-43a92c990251` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_115122_c0c74b6f-2a37-4e9e-bcdb-43a92c990251.mp4) |
 | BR6-C (gentle swirl, end frame K_C; wine right, hand stopped) | `7b15298c-f2b8-4055-a2cf-0ca7153f9291` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_115831_7b15298c-f2b8-4055-a2cf-0ca7153f9291.mp4) |
 | BR6-D (gentle swirl, end frame K_C; hand stopped) | `79480dae-88d2-4e73-a7ec-9df2f596ec58` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_115830_79480dae-88d2-4e73-a7ec-9df2f596ec58.mp4) |
-| BR6-E (slow wine-taster swirl, about 1 circle/s, end frame K_C) | `669f7d45-2abd-47d1-b1c8-44ab802fe5f6` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_120855_669f7d45-2abd-47d1-b1c8-44ab802fe5f6.mp4) |
-| BR6-F (continuous slow hand loops, end frame K_C) | `4b406e6a-1662-48f6-8a9b-52a8d765ad2e` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_120855_4b406e6a-1662-48f6-8a9b-52a8d765ad2e.mp4) |
+| BR6-E (slow wine-taster swirl, about 1 circle/s, end frame K_C; not used) | `669f7d45-2abd-47d1-b1c8-44ab802fe5f6` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_120855_669f7d45-2abd-47d1-b1c8-44ab802fe5f6.mp4) |
+| **BR6-F: APPROVED** (continuous slow hand loops, end frame K_C) | `4b406e6a-1662-48f6-8a9b-52a8d765ad2e` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_120855_4b406e6a-1662-48f6-8a9b-52a8d765ad2e.mp4) |
 | BR7 | `dcc75b10-e910-4f59-887e-b667786d9ed5` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113146_dcc75b10-e910-4f59-887e-b667786d9ed5.mp4) |
 
 The B-roll runs 35s against 28.6s of body voiceover, which leaves the editors trim room.
