@@ -55,6 +55,16 @@ Chosen keyframes: A = `44cec481-6527-4ddd-950f-8ef11f02ea90`, K_B = `43a201e8-9a
 
 The B-roll runs 35s against 28.6s of body voiceover, which leaves the editors trim room.
 
+## White-wine version of the body B-roll
+
+The same approved clips recoloured with Seedance 2.5 `video_edit` (1080p, no audio, about 61 credits per 5s clip). Only the wine changes; the performance, timing and framing match the red version, so the editors can reuse the red edit shot for shot.
+
+Edit prompt: `Change only the wine inside the glass: replace the red wine with a clear, pale straw-gold white wine for the entire video. The wine keeps exactly the same fill level, the same swirl and motion, and the same highlights and reflections. Keep everything else exactly identical and untouched: the woman, her face, hair, skin, clothing, hands and every movement and expression, the wine glass itself, the notebook, pen, phone, table, room, lighting, colour grade, camera framing and timing. No other changes, no added text or graphics.`
+
+| Clip | Source (red) | White version |
+|---|---|---|
+| BR6-F (pilot) | `4b406e6a-1662-48f6-8a9b-52a8d765ad2e` | `21c9a183-3d53-45c3-bdde-2261cfe403da` ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_123158_21c9a183-3d53-45c3-bdde-2261cfe403da.mp4)), awaiting review |
+
 ## Voiceover takes (Romy, ElevenLabs)
 
 | Clip | Text sent to the voice engine | Take A | Take B | Chosen |
