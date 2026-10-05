@@ -106,6 +106,8 @@ Ad Multiplier returned every version 7 frames short (545 of 552 frames). Each wa
 
 Checked by measurement only. Label text, bottle shape and the box logo still need a look by eye.
 
+**Download all six approved videos (Final B + outputs 1–5) as one zip, with a README (59.8 MB):** https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/a3793d2c-bc9a-42df-b5bd-3a6bf571b848.zip
+
 Still to check by eye on Final B:
 - The logo on the box. Genjutsu's prompt rewriter read the new box as "Casedrops", so check that the brand name renders correctly.
 - The sixth bottle's label.
