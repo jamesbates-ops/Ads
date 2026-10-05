@@ -28,6 +28,10 @@ The lyrics say "my kids" and "my sons"; on screen this is the one adult son.
 
 The case was drawn from the brief rather than a photo: kraft-brown corrugated case, purple Casedrops wordmark on the front, purple tape across the top, purple "handle with / fragile" on the side.
 
+## Story timeline
+
+The song is told out of order, and the video follows it. Verse 1, Pre-Chorus 1 and Chorus 1 (shots 1 to 15) are the present day, with Dad already using Casedrops, so the product is on screen from 0:36. Verse 2 (shots 16 to 20) is a flashback to the old way of buying wine, printed in the same faded sepia inks as the diner flashback in shot 7. Full colour returns at shot 21, when his son shows him the app, and stays for the rest of the film.
+
 ## Shot list
 
 In and out points are mm:ss.s on the song. Each shot is one seed frame (screen-print style, built from the references above) animated image-to-video, then trimmed to length.
@@ -49,12 +53,12 @@ In and out points are mm:ss.s on the song. Each shot is one seed frame (screen-p
 | 13 | 00:49.8 | 00:55.3 | 5.5s | my wallet breathes some more | Dad's leather wallet on the porch table lets out a cartoon sigh of relief. |
 | 14 | 00:55.3 | 00:59.0 | 3.7s | progress I can use | Dad opens the case: bottles in neat rows. He nods, impressed. |
 | 15 | 00:59.0 | 01:02.7 | 3.7s | let the old man choose | Friends and Son hold out glasses; Dad picks a bottle with a flourish and pours. |
-| 16 | 01:02.7 | 01:06.8 | 4.1s | drove across the town | Flashback: Dad backs a 1960s sedan out of the driveway, road map on the passenger seat. |
-| 17 | 01:06.8 | 01:10.8 | 4.0s | (across the town) | Gridlock: horns, heat shimmer, Dad drumming on the steering wheel. |
-| 18 | 01:10.8 | 01:16.0 | 5.2s | mountains made of wine bottles | Warehouse superstore: tiny Dad pushes a squeaky cart past towering mountains of bottles that wobble over him. |
-| 19 | 01:16.0 | 01:19.9 | 3.9s | Ninety minutes later | A clock face spins; his car pulls back into the same driveway. |
-| 20 | 01:19.9 | 01:24.4 | 4.5s | less cash in my pocket | On the porch Dad turns out his empty trouser pockets; a moth flutters out; grumpy frown. |
-| 21 | 01:24.4 | 01:29.2 | 4.8s | "Dad, you're looking in the wrong place" | Seed: the approved Dad and Son frame. Son grins and holds out his phone. |
+| 16 | 01:02.7 | 01:06.8 | 4.1s | drove across the town | **Sepia flashback starts.** Dad backs a 1960s sedan out of the driveway, road map on the passenger seat. |
+| 17 | 01:06.8 | 01:10.8 | 4.0s | (across the town) | Sepia. Gridlock: horns, heat shimmer, Dad drumming on the steering wheel. |
+| 18 | 01:10.8 | 01:16.0 | 5.2s | mountains made of wine bottles | Sepia. Warehouse superstore: tiny Dad pushes a squeaky cart past towering mountains of bottles that wobble over him. |
+| 19 | 01:16.0 | 01:19.9 | 3.9s | Ninety minutes later | Sepia. A clock face spins; his car pulls back into the same driveway. |
+| 20 | 01:19.9 | 01:24.4 | 4.5s | less cash in my pocket | Sepia. On the porch Dad turns out his empty trouser pockets; a moth flutters out; grumpy frown. |
+| 21 | 01:24.4 | 01:29.2 | 4.8s | "Dad, you're looking in the wrong place" | **Full colour returns.** Seed: the approved Dad and Son frame. Son grins and holds out his phone. |
 | 22 | 01:29.2 | 01:34.4 | 5.2s | every corner of the globe | Phone screen: a stylised globe spins and wine regions light up one after another. |
 | 23 | 01:34.4 | 01:37.6 | 3.2s | Casedrops, bring the good life home | A literal case drop: the Casedrops case floats down onto the porch under a striped parachute while Dad and Son look up. |
 | 24 | 01:37.6 | 01:42.7 | 5.1s | Pick a bottle from the world | Bottles fly out of the globe like birds, over oceans, and land on the porch table. |
@@ -78,7 +82,7 @@ In and out points are mm:ss.s on the song. Each shot is one seed frame (screen-p
 
 ## Seed frames
 
-GPT Image 2.5, high quality, 2K, 9:16. Contact sheet of all 40: https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/0f19db20-27ec-47f3-8a03-3d3702f67f58.jpg
+GPT Image 2.5, high quality, 2K, 9:16. Contact sheet of the first pass (shots 16 to 20 have since been redrawn in sepia): https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/0f19db20-27ec-47f3-8a03-3d3702f67f58.jpg
 
 | Shot | Frame |
 |---|---|
@@ -97,11 +101,11 @@ GPT Image 2.5, high quality, 2K, 9:16. Contact sheet of all 40: https://d2ol7oe5
 | 13 | [f8027db1](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155017_f8027db1-8d3d-484c-8656-c7c47164bf57.png) |
 | 14 | [597fe498](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155133_597fe498-3316-4533-b1f7-12fc505888d6.png) |
 | 15 | [4fd52195](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155253_4fd52195-ea73-4b9a-82ee-c630e674313e.png) |
-| 16 | [bb48d4b2](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155133_bb48d4b2-a74f-41d3-ae3f-7527aa164aa4.png) |
-| 17 | [f53c7ebb](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155139_f53c7ebb-53a7-4dd0-906b-144e2ad6ac3d.png) |
-| 18 | [e8e88a94](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155133_e8e88a94-6dbc-4432-8853-f38ba29f30e8.png) |
-| 19 | [38589e7d](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155133_38589e7d-01a7-4fed-bb2f-7d1fce23215a.png) |
-| 20 | [d7ecf9ca](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155135_d7ecf9ca-d470-467d-a23c-ed615dec193d.png) |
+| 16 | [271426f8](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261005_151909_271426f8-d0b9-4f63-b101-102cf0af6e23.png) (sepia) |
+| 17 | [69dc7cda](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261005_151907_69dc7cda-e90a-49ce-af0e-9e8073effb86.png) (sepia) |
+| 18 | [b66012d3](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261005_151909_b66012d3-a367-4085-a4dd-22e3ddbaf648.png) (sepia) |
+| 19 | [e02a7f15](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261005_151908_e02a7f15-2316-44f9-a9ed-ba72a997d2a3.png) (sepia) |
+| 20 | [2448b0d2](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261005_151907_2448b0d2-dc36-43ec-bfd4-56703455f353.png) (sepia) |
 | 21 | [88a67e0a](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_154129_88a67e0a-02f1-4bde-8c06-c0a109033ab0.png) |
 | 22 | [3f11924d](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155143_3f11924d-f50e-448b-8418-9ac3bbb37cc1.png) |
 | 23 | [11116471](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_155143_11116471-c28a-447a-8730-4f9046435c0b.png) |
