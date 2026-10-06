@@ -1,5 +1,7 @@
 # Casedrops song 2 ("Dad and me"): lyric timing
 
+**Final cut v1:** https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/45253a03-10d7-44fc-b0c6-59870ea4d7fd.mp4 (Higgsfield media `45253a03-10d7-44fc-b0c6-59870ea4d7fd`, 1080x1920 H.264 + AAC, 2:35.6, 113 MB). Cost: 82.50 credits of seed frames plus 1,992 of Seedance, 2,074.50 in total.
+
 Source: `Casedrops_1.m4a` from Suno (2:35.6). Timings come from the timed-lyric track embedded in the file (`casedrops-2-lyrics.srt` in this folder).
 
 - 00:00.0 to 00:11.0 is the instrumental intro. Vocals end at 02:23.1, and 02:23.1 to 02:35.6 (12.5s) is the instrumental tail, which leaves room for the end card.
@@ -104,6 +106,52 @@ GPT Image 2.5, high quality, 2K, 9:16, built from the video 1 references (Dad, D
 | 30 | [8fb3ede5](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_110259_8fb3ede5-6d7e-4a8a-ac30-b3a46d58810e.png) |
 
 Animation estimate: 166 generated seconds of Seedance 2.5 at 12 credits a second, about 1992 credits.
+
+## Animated clips
+
+Seedance 2.5 clips (1080x1920, 24 fps, no audio), one per shot. Automated checks on every clip: enough frames for the shot, correct resolution, sepia shots stayed sepia, muted shots stayed muted, warm shots stayed warm. Shots 2, 4 and 5 change most between first and last frame (the push-in to the oven, the cabinet door, the calendar and snow montage); they are worth a look.
+
+| Shot | Clip |
+|---|---|
+| 1 | [224b3156](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112038_224b3156-afba-4c01-8139-9518ca9de163.mp4) |
+| 2 | [f20b5611](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112038_f20b5611-b76c-44cc-9314-0c8f2eb434fb.mp4) |
+| 3 | [be45a785](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112038_be45a785-961b-44a9-a990-a063c5ea35e9.mp4) |
+| 4 | [a0fbdbb6](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112038_a0fbdbb6-8b1e-41db-9fab-e0023868fcbb.mp4) |
+| 5 | [f7dab8d9](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112038_f7dab8d9-a0ac-4129-984b-dc4623747fd0.mp4) |
+| 6 | [4ee9e0c0](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112038_4ee9e0c0-7e85-4a19-9312-e6678567e2fa.mp4) |
+| 7 | [ab0dc1ae](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112039_ab0dc1ae-132a-46a8-a28e-b5a61e979c0f.mp4) |
+| 8 | [3606c03b](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112039_3606c03b-6a35-4aa9-a62a-eea68ab2a501.mp4) |
+| 9 | [2ec274c9](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112039_2ec274c9-aa56-4b19-b965-acd39762b9bc.mp4) |
+| 10 | [c7e61869](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112038_c7e61869-5565-4f29-835f-2363d50f4fe4.mp4) |
+| 11 | [bfba6036](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112039_bfba6036-1e68-4b33-924c-ced4bffe5e1c.mp4) |
+| 12 | [88720d14](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112038_88720d14-6a26-4895-aac5-752439846eda.mp4) |
+| 13 | [3c3045e1](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113245_3c3045e1-3016-4f11-9d43-359e8c89783d.mp4) |
+| 14 | [e8b148a6](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112132_e8b148a6-31c6-40c0-8e97-0b836df2e4e5.mp4) |
+| 15 | [ae99fae3](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113245_ae99fae3-5c63-479c-94db-9a6e245fc6b2.mp4) |
+| 16 | [dd93cf3d](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112130_dd93cf3d-50cf-49ab-bcca-e88acc3c454d.mp4) |
+| 17 | [2cf27273](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112132_2cf27273-6d55-4b48-8db3-9a00e7327ee1.mp4) |
+| 18 | [df54546a](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112133_df54546a-f747-4dbd-ac86-ab661f7d8de0.mp4) |
+| 19 | [9d7f9033](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113246_9d7f9033-962e-45be-a4bf-41590f7bac50.mp4) |
+| 20 | [8671dcbb](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113246_8671dcbb-295d-40b2-97cc-df65c3915883.mp4) |
+| 21 | [78e736c7](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_112133_78e736c7-47fc-4125-b1a3-c9a6b1992a3f.mp4) |
+| 22 | [3b05be48](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113246_3b05be48-27ef-41ae-b649-c13d3f6e598d.mp4) |
+| 23 | [95253348](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113245_95253348-f7cc-4cb9-8b6d-e62bb5d683b0.mp4) |
+| 24 | [2323024b](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113245_2323024b-d264-4b68-bf0e-fdf1122d49ef.mp4) |
+| 25 | [924e4760](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113246_924e4760-9193-4bf0-a22e-3e468eb18573.mp4) |
+| 26 | [f8bfef86](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113245_f8bfef86-e2d9-4bb7-a480-1b0a545ef058.mp4) |
+| 27 | [75fa88d0](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113246_75fa88d0-e976-4dc3-883b-ca34197371a5.mp4) |
+| 28 | [6386d2c9](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113246_6386d2c9-848c-4e99-a348-686a1b26440c.mp4) |
+| 29 | [0c88c506](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113245_0c88c506-6764-485c-afb7-e6db29608335.mp4) |
+| 30 | [980ccbe3](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113300_980ccbe3-4050-4a91-8905-8a524235dede.mp4) |
+
+## Edit
+
+- Each clip trimmed to its exact frame count at 24 fps (3,734 frames, 155.6s), cut on the lyric lines.
+- Dip to cream (8 frames) out of shot 9 and into shot 10: the past gives way to the present.
+- Shot 17 opens with a 14-frame warm glow as the colour arrives.
+- Shot 15: tomato-red stamp "UP TO 80% OFF / FREE DELIVERY" overlaid from the 6th frame.
+- Shot 31 end card, same as video 1: real gold logo on the purple sunburst, "Download the app", "App Store · Google Play", "Please enjoy responsibly. 21+ only."
+- Song underneath with a 1.5s fade at the end, AAC 192 kbps, H.264 1080x1920 MP4.
 
 ## Lyric timing
 
