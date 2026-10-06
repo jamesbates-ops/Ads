@@ -104,7 +104,7 @@ Casedrops_Edit_Pack/
 
 B-roll names: BR1 writing, BR2 glance-at-wine, BR3 pen-down-phone-up, BR4 scrolling-smile, BR5 phone-down-sip, BR6 swirl, BR7 cheers. Voiceover names: H1 hook_80-to-20, H2 hook_70-off, H3 hook_great-wine-great-deal, S1 this-is-casedrops, S2 choose-reserve-deliver, S3 full-refund, S4 money-back, S5 you-wont-though.
 
-Checked after the upload: the zip downloads from the link and passes `unzip -t`. Hooks are 4.04s at 1080×1912, red B-roll 5.04s at 1080×1912, and white B-roll 5.04s at 1082×1916. The CSV gives the mp3 durations as the container reads them (for example, H1 is 7.00s against 6.96s of speech in the takes table).
+Checked after the upload: the zip downloads from the link and passes `unzip -t`. Hooks are 4.04s at 1080×1912, red B-roll 5.04s at 1080×1912, and white B-roll 5.04s at 1082×1916. The CSV gives the mp3 durations as the container reads them (for example, H1 reads 7.00s there; the page and the takes table give 6.96s, the length Higgsfield reported).
 
 ## Claims to check before release
 - H1 says $80 to $20, which is 75% off. H2 says 70% off. If both refer to the same bottle, make the numbers agree.
