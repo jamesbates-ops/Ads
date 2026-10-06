@@ -11,7 +11,7 @@ All stills: Nano Banana Pro at 2K, 1536×2752, generated in the Winedrops Higgsf
 - **Colour script:** "last year" (verses 1–2) is graded cold, desaturated blue-grey. The 1:04 instrumental is where amber comes back in, from the phone. "This year" (verse 3 onwards) is warm gold.
 - **Her:** early 30s, warm light-brown skin, dark brown low bun, round tortoiseshell glasses, gold hoops. Last year she wears a beige raincoat over a dusty-blue sweater; this year a navy wrap dress and an amber cardigan (the brand colours).
 - **Him:** early 30s, handsome and warm-hearted, with tousled ginger curls, a groomed ginger beard, freckles and green eyes. He wears a paper birthday crown on his birthday, a navy sweater last year and a forest-green one this year.
-- **His family (all adults):** mother (silver bob, pearls, lavender blouse), father (bald, grey moustache, brown cardigan) and sister (long ginger ponytail, striped top).
+- **His family (all adults):** mother (silver bob, pearls, lavender blouse), father (bald, grey moustache, brown cardigan) and sister (mid-thirties, sleek chin-length ginger bob, teal blouse; she must read as an unmistakable adult, because the original 'ponytail and striped top' design kept rendering as a child).
 - **Gag:** last year's bottle still has a **$6.99** clearance sticker on it, which is how the family "guessed what I'd spent from the label in hand".
 - **Brand:** amber `#FFB700` on navy `#131121`. The logo files are in `brand/casedrops/`. The Higgsfield media IDs are `d81a92b0-0f4c-4cf5-80dc-941426adb54a` (wordmark) and `4e372c65-7e47-4fda-9f9f-3756def5bc0f` (flame icon).
 

@@ -61,18 +61,18 @@ The start frame for each shot. The video clip for each shot is generated from it
 |---|---|---|---|
 | 01 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113435_2c9fe60c-511d-416e-bb99-ccf6d05fd272.png) | `2c9fe60c-511d-416e-bb99-ccf6d05fd272` |
 | 02 | reused S1 | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_110939_77836567-9d01-4b0b-b99d-70f0c1262c75.png) | `77836567-9d01-4b0b-b99d-70f0c1262c75` |
-| 03 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113435_22be48da-0ad2-4e39-87bb-395ac54dbea0.png) | `22be48da-0ad2-4e39-87bb-395ac54dbea0` |
+| 03 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122314_7e7974f3-b41f-4bc0-a5b4-307e2eea4fd4.png) | `7e7974f3-b41f-4bc0-a5b4-307e2eea4fd4` |
 | 04 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113435_2a99f69d-0a6a-4bfb-acb7-d1dbef9bc08d.png) | `2a99f69d-0a6a-4bfb-acb7-d1dbef9bc08d` |
 | 05 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113435_97d43965-c08f-4654-896f-82a9a1b00d89.png) | `97d43965-c08f-4654-896f-82a9a1b00d89` |
-| 06 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113435_11772db8-7beb-4263-b859-5014aa16b66e.png) | `11772db8-7beb-4263-b859-5014aa16b66e` |
-| 07 | reused S2 | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_110939_8f4980d4-6940-4f94-ae49-8ca9688c49cb.png) | `8f4980d4-6940-4f94-ae49-8ca9688c49cb` |
-| 08 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113435_8d4a26be-918a-47d2-88a0-0b787b3439dc.png) | `8d4a26be-918a-47d2-88a0-0b787b3439dc` |
-| 09 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113435_52e66acb-2a66-42b7-a1a6-6f8378a9ad47.png) | `52e66acb-2a66-42b7-a1a6-6f8378a9ad47` |
-| 10 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113436_4cf9650d-7db0-4cb4-9cf5-75699faf0cad.png) | `4cf9650d-7db0-4cb4-9cf5-75699faf0cad` |
+| 06 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122315_ea253e43-35c0-4d45-a19f-a393efa4b03c.png) | `ea253e43-35c0-4d45-a19f-a393efa4b03c` |
+| 07 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122315_53ec9a58-163d-40fb-88d6-578239349a4f.png) | `53ec9a58-163d-40fb-88d6-578239349a4f` |
+| 08 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123433_db4f8700-e488-4873-a526-45ca8d0baa47.png) | `db4f8700-e488-4873-a526-45ca8d0baa47` |
+| 09 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122315_99c613ba-69a7-4d13-aeaf-7db2e17a1b05.png) | `99c613ba-69a7-4d13-aeaf-7db2e17a1b05` |
+| 10 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122314_3420cbb5-8822-4205-8c23-f871f37cf65d.png) | `3420cbb5-8822-4205-8c23-f871f37cf65d` |
 | 11 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113434_882df97c-ef73-43ce-9a70-f073703d9718.png) | `882df97c-ef73-43ce-9a70-f073703d9718` |
-| 12 | reused S3 | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_110939_fced0ae0-3f28-458c-94b3-5697d406bb1f.png) | `fced0ae0-3f28-458c-94b3-5697d406bb1f` |
+| 12 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122314_a7f3917d-e4e2-49df-8c69-e7d54b8ac0fe.png) | `a7f3917d-e4e2-49df-8c69-e7d54b8ac0fe` |
 | 13 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113436_fea672c7-b7c9-4883-a351-a53341282cea.png) | `fea672c7-b7c9-4883-a351-a53341282cea` |
-| 14 | reused S4 | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_110939_2d554c06-f3ac-4d05-af74-bf60ab2d20e6.png) | `2d554c06-f3ac-4d05-af74-bf60ab2d20e6` |
+| 14 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122314_e5d75d76-4f60-42e4-9716-da4e0fceb134.png) | `e5d75d76-4f60-42e4-9716-da4e0fceb134` |
 | 15 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113435_399a616c-71da-4dd1-9aa2-3d1412c383f7.png) | `399a616c-71da-4dd1-9aa2-3d1412c383f7` |
 | 16 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113605_08038f1e-15f0-4533-9e99-de85980416f4.png) | `08038f1e-15f0-4533-9e99-de85980416f4` |
 | 17 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113442_d062a8d1-6ac0-471c-86ff-3a7ec7b898ce.png) | `d062a8d1-6ac0-471c-86ff-3a7ec7b898ce` |
@@ -80,13 +80,13 @@ The start frame for each shot. The video clip for each shot is generated from it
 | 19 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113435_46a8c3fb-616c-43a7-993f-b8d6982be947.png) | `46a8c3fb-616c-43a7-993f-b8d6982be947` |
 | 20 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113442_ec6156fa-41fe-4c8b-9783-e9d7f5b1bef7.png) | `ec6156fa-41fe-4c8b-9783-e9d7f5b1bef7` |
 | 21 | reused M | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_110548_97638c76-625d-4e8e-a2a8-3a9df48b4973.png) | `97638c76-625d-4e8e-a2a8-3a9df48b4973` |
-| 22 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113442_8de427b7-b668-43f5-bf9c-98b3345b8f2c.png) | `8de427b7-b668-43f5-bf9c-98b3345b8f2c` |
+| 22 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122316_baa7b7f8-f8b2-492c-95c0-6a897a0ff83d.png) | `baa7b7f8-f8b2-492c-95c0-6a897a0ff83d` |
 | 23 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113441_3bd41522-0c67-41aa-93de-da2eb412a5af.png) | `3bd41522-0c67-41aa-93de-da2eb412a5af` |
-| 24 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113444_c5e8bed2-30de-4f44-a266-8def5489990f.png) | `c5e8bed2-30de-4f44-a266-8def5489990f` |
-| 25 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113442_a5134682-51ac-499e-a78e-eaa586cd94fd.png) | `a5134682-51ac-499e-a78e-eaa586cd94fd` |
+| 24 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122316_1b79ebb6-8031-479c-bac4-6359671b8718.png) | `1b79ebb6-8031-479c-bac4-6359671b8718` |
+| 25 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122316_4cc3dd61-1292-4a13-b3f0-aad8f0098b45.png) | `4cc3dd61-1292-4a13-b3f0-aad8f0098b45` |
 | 26 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113441_ac29c1a9-da52-45eb-b0e3-de85c2b9714a.png) | `ac29c1a9-da52-45eb-b0e3-de85c2b9714a` |
-| 27 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113442_980f923f-e6d4-47e4-8ae0-c23d82e6c677.png) | `980f923f-e6d4-47e4-8ae0-c23d82e6c677` |
-| 28 | reused S6 | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_110939_c557d70f-2307-4cf8-a08c-ec3809251c81.png) | `c557d70f-2307-4cf8-a08c-ec3809251c81` |
+| 27 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122316_41c0200a-e424-4d2c-bded-594c6cad4188.png) | `41c0200a-e424-4d2c-bded-594c6cad4188` |
+| 28 | fixed | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_122319_60e0ec4c-426f-4a18-806a-9069c52d1b8f.png) | `60e0ec4c-426f-4a18-806a-9069c52d1b8f` |
 | 29 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113443_4e41acc8-4cf9-4a7a-83b6-75f47b843f4d.png) | `4e41acc8-4cf9-4a7a-83b6-75f47b843f4d` |
 | 30 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113442_8770cc03-fb71-4a0d-9d9f-9fa56116e582.png) | `8770cc03-fb71-4a0d-9d9f-9fa56116e582` |
 | 31 | new | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_113442_16d1e96e-c678-40ab-b6f8-c7d1ef22f919.png) | `16d1e96e-c678-40ab-b6f8-c7d1ef22f919` |
@@ -102,18 +102,18 @@ Kling 3.0 Pro, 1080p, 9:16, no audio. Each clip starts from that shot's start fr
 |---|---|---|---|
 | 01 | 8s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_7b0c7aff-9418-4fc1-9f23-12ab41e54cc7.mp4) | `7b0c7aff-9418-4fc1-9f23-12ab41e54cc7` |
 | 02 | 6s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120855_a2e281a5-2a7f-4e54-bc61-dc26a7b16541.mp4) | `a2e281a5-2a7f-4e54-bc61-dc26a7b16541` |
-| 03 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121100_ed4be09d-8296-4891-8a0d-2d22098738b9.mp4) | `ed4be09d-8296-4891-8a0d-2d22098738b9` |
+| 03 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_1f11f66c-1055-4628-bd0a-5d7dfa593f80.mp4) | `1f11f66c-1055-4628-bd0a-5d7dfa593f80` |
 | 04 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_fbf92fab-fc14-41cf-a397-f525d3bfa25a.mp4) | `fbf92fab-fc14-41cf-a397-f525d3bfa25a` |
 | 05 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_2b9c4c59-ffc6-496e-b6ae-77ff74e56347.mp4) | `2b9c4c59-ffc6-496e-b6ae-77ff74e56347` |
-| 06 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_2e66b433-7c44-4054-98d5-109c6c56d134.mp4) | `2e66b433-7c44-4054-98d5-109c6c56d134` |
-| 07 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120855_c6665f0f-c8b0-444e-8fe3-1eb594a6452e.mp4) | `c6665f0f-c8b0-444e-8fe3-1eb594a6452e` |
-| 08 | 6s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_20b0f91a-b3b6-4fc9-98c7-3284248adfc5.mp4) | `20b0f91a-b3b6-4fc9-98c7-3284248adfc5` |
-| 09 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_4812898f-580e-4e9c-9853-8f9566b0b593.mp4) | `4812898f-580e-4e9c-9853-8f9566b0b593` |
-| 10 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_e66d2d12-ca2d-46ef-9272-663aa2349c60.mp4) | `e66d2d12-ca2d-46ef-9272-663aa2349c60` |
+| 06 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_fe593e95-5a9e-42d0-a199-f0de5f71bd1c.mp4) | `fe593e95-5a9e-42d0-a199-f0de5f71bd1c` |
+| 07 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123133_f989bc1d-1f17-4ede-ab6f-8b7330a3a8ee.mp4) | `f989bc1d-1f17-4ede-ab6f-8b7330a3a8ee` |
+| 08 | 6s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123813_526ced65-6df9-423f-9a61-bf9977d19ec6.mp4) | `526ced65-6df9-423f-9a61-bf9977d19ec6` |
+| 09 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_3677d629-244d-4d96-9129-70890d145f28.mp4) | `3677d629-244d-4d96-9129-70890d145f28` |
+| 10 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_af3f4d84-eab6-4160-8055-8955754d7047.mp4) | `af3f4d84-eab6-4160-8055-8955754d7047` |
 | 11 | 7s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_157bb5ec-1b4b-4abf-a2dd-a7edc8869fbd.mp4) | `157bb5ec-1b4b-4abf-a2dd-a7edc8869fbd` |
-| 12 | 8s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121100_16ef4872-22b6-4570-b8f7-01003b2e1da5.mp4) | `16ef4872-22b6-4570-b8f7-01003b2e1da5` |
+| 12 | 8s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_0cfec5ad-b2e2-456b-83c5-63d38a2433e1.mp4) | `0cfec5ad-b2e2-456b-83c5-63d38a2433e1` |
 | 13 | 6s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_f5b9488e-23f0-49fc-87a4-6fbc283e2fbf.mp4) | `f5b9488e-23f0-49fc-87a4-6fbc283e2fbf` |
-| 14 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_49ca027c-bdf4-4bf1-b18d-629e85afae69.mp4) | `49ca027c-bdf4-4bf1-b18d-629e85afae69` |
+| 14 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_b0007c93-fd8e-4a0a-a0d7-bbba864bfc5f.mp4) | `b0007c93-fd8e-4a0a-a0d7-bbba864bfc5f` |
 | 15 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_d3005daa-187b-4028-9b62-1b4ccf3667ea.mp4) | `d3005daa-187b-4028-9b62-1b4ccf3667ea` |
 | 16 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121100_af32286b-278e-4dfa-8ace-3591b263fcb0.mp4) | `af32286b-278e-4dfa-8ace-3591b263fcb0` |
 | 17 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121059_00e14de8-bd4b-4348-ac55-9613c1b004a1.mp4) | `00e14de8-bd4b-4348-ac55-9613c1b004a1` |
@@ -121,33 +121,44 @@ Kling 3.0 Pro, 1080p, 9:16, no audio. Each clip starts from that shot's start fr
 | 19 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_739a27bf-dd86-43ad-8ef3-5daab21b126e.mp4) | `739a27bf-dd86-43ad-8ef3-5daab21b126e` |
 | 20 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_9ca7f480-4904-4803-aade-1c1b3c403c94.mp4) | `9ca7f480-4904-4803-aade-1c1b3c403c94` |
 | 21 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_98db331a-102a-4129-b0b3-b7c4b1bc9880.mp4) | `98db331a-102a-4129-b0b3-b7c4b1bc9880` |
-| 22 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_4f3e1f1d-97f7-4568-9532-51ab4f26ad8f.mp4) | `4f3e1f1d-97f7-4568-9532-51ab4f26ad8f` |
+| 22 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_19bd23fe-077e-4dc7-ac33-88882cda7fe2.mp4) | `19bd23fe-077e-4dc7-ac33-88882cda7fe2` |
 | 23 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_60ee8a80-270c-4f9b-a567-905a108b6ff6.mp4) | `60ee8a80-270c-4f9b-a567-905a108b6ff6` |
-| 24 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_368ceb85-5525-47a8-9497-13fa10573e04.mp4) | `368ceb85-5525-47a8-9497-13fa10573e04` |
-| 25 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121126_0aad4060-183b-4a8a-a26b-16f2c14be0bf.mp4) | `0aad4060-183b-4a8a-a26b-16f2c14be0bf` |
+| 24 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_51003d10-91d6-4395-961a-79cd1d57f764.mp4) | `51003d10-91d6-4395-961a-79cd1d57f764` |
+| 25 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_4019d79c-f023-4c99-bda7-d6f138db208b.mp4) | `4019d79c-f023-4c99-bda7-d6f138db208b` |
 | 26 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121126_5104dbe4-1244-43d9-9211-76e44fa19224.mp4) | `5104dbe4-1244-43d9-9211-76e44fa19224` |
-| 27 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_afdfdc9c-7654-4301-b25e-2a12b3993b35.mp4) | `afdfdc9c-7654-4301-b25e-2a12b3993b35` |
-| 28 | 7s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_207b0e10-ddc2-40bd-8fb4-c74968ed4dbc.mp4) | `207b0e10-ddc2-40bd-8fb4-c74968ed4dbc` |
+| 27 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123132_f8f6745e-766e-4226-bf10-286700fc61bc.mp4) | `f8f6745e-766e-4226-bf10-286700fc61bc` |
+| 28 | 7s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_123147_823d65ef-6ca9-47f3-b382-a6ddaf1c8daa.mp4) | `823d65ef-6ca9-47f3-b382-a6ddaf1c8daa` |
 | 29 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_371da777-51a5-48bf-a571-d9d8e79831c0.mp4) | `371da777-51a5-48bf-a571-d9d8e79831c0` |
 | 30 | 10s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121126_c6094100-4458-47d3-8c57-64713ec3a7b4.mp4) | `c6094100-4458-47d3-8c57-64713ec3a7b4` |
 | 31 | 7s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_b38a4852-0fb6-4b98-9b07-903b6d8503d2.mp4) | `b38a4852-0fb6-4b98-9b07-903b6d8503d2` |
 | 32 | 6s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121128_6896d191-c7f0-4511-8c00-167be64ec009.mp4) | `6896d191-c7f0-4511-8c00-167be64ec009` |
 | 33 | 9s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_ced1b8d8-b2b4-474f-9f1b-f4e73678d5cb.mp4) | `ced1b8d8-b2b4-474f-9f1b-f4e73678d5cb` |
 
-## Cost (Winedrops workspace, about 5,120 credits available)
+## Cost (actual, Winedrops workspace)
 
-| Item | Qty | Credits |
-|---|---|---|
-| New start frames (Nano Banana Pro, 2K) | 25 | ≈ 13 |
-| Video, Kling 3.0 Pro 1080p (33 clips, 176s) | 176s × 1.5 | 264 |
-| Retake allowance (~40%) | | ≈ 105 |
-| **Total, Kling 3.0 Pro** | | **≈ 380** |
+| Item | Credits |
+|---|---|
+| Stills: claymation and Pixar master variants, 8 key stills, end-card edits (22 images at 2 each) | 44 |
+| Start frames (25 images at 2 each) | 50 |
+| Video, Kling 3.0 Pro 1080p, first pass (33 clips, 176s at 1.5/s) | 264 |
+| Fixes: 14 start-frame edits and 14 clip re-renders (see "Fixes" below) | 134.5 |
+| **Total** | **492.5** |
 
-Other quotes for the same 176s: Seedance 2.5 at 1080p ≈ 2,110 (12/s), at 720p ≈ 1,230 (7/s), or as 480p drafts ≈ 530 (3/s) with a separate fee to finalise each one at 1080p.
+The start frames were quoted at about 13 credits. Nano Banana Pro actually charges 2 credits per image, not 2 per set of four.
+
+## Fixes after review
+
+On review, his sister (written as late twenties) had come out as a child of roughly 8–12 in shots 03, 06, 07, 08, 09, 10, 12, 22, 24, 25, 27 and 28. In 28 she held a Champagne flute, and 24 showed two children. That can't run in a US alcohol ad: industry codes and platform ad policies don't allow minors. The start frames for those shots were edited to recast her as an unmistakable adult (mid-thirties, sleek chin-length ginger bob, teal blouse), with no children anywhere, and the clips were re-rendered. In the same pass, shot 03 had the heroine's skin and hair corrected, shot 10 had the boyfriend's sweater changed back to navy for last year, and shot 14 had a floating phone panel with a truncated logo removed. Shot 08 needed a second edit, because the first one put the sister in the heroine's seat. The tables above list the fixed frames and clips; the originals are still in the Higgsfield history.
+
+## Final cut
+
+- Master: 1080×1920, 24fps, H.264 (CRF 16) with AAC 256k, 2:54.8, 159 MB. Higgsfield media `ebdbd1ec-f17b-4594-97df-b57b6bec976b`: https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/ebdbd1ec-f17b-4594-97df-b57b6bec976b.mp4
+- Built by `plan/casedrops-saved-the-night-assemble.py`: frame-accurate hard cuts at the lyric-line times above, scaled and cropped from Kling's 1076×1928 to 1080×1920. Supers on 25–27 use Inter Black and Bold in amber and white on a navy panel. There's a 0.4s dip from shot 33 into the end card, the end card pushes in 6% over 13.3s, and the picture and audio both fade out over the last second. The song is used unaltered apart from a 0.6s tail fade.
+- Checked: duration and streams, a frame from every shot taken from the finished file, no unexpected black frames, and audio levels identical to the source song (mean −19.4 dB, peak −4.0 dB).
 
 ## Edit notes
 
 - Colour: shots 01–13 are cold and desaturated, 14–15 bring the amber in from the phone, and 16 onwards is warm gold. Grade the generated clips toward this if they drift.
 - Supers on 25–27 use clean brand type rather than AI-rendered text. Check the offer wording with whoever signs off on claims.
 - Compliance: toasts only, and nobody is shown drinking heavily or acting drunk. Every character reads as over 21.
-- Assembly: this container can't reach Higgsfield's CDN, so either assemble in Higgsfield or allow the CDN hosts so the cut can be made here with ffmpeg.
+- Supers wording is a draft ("Top-shelf wine / Up to 80% off", "Right to your door / Free delivery", "Don't love it? / Get a refund"); the offer claims need substantiation before this runs.
