@@ -5,7 +5,7 @@ Source: `Casedrops_1.m4a` from Suno (2:35.6). Timings come from the timed-lyric 
 - 00:00.0 to 00:11.0 is the instrumental intro. Vocals end at 02:23.1, and 02:23.1 to 02:35.6 (12.5s) is the instrumental tail, which leaves room for the end card.
 - Song structure runs in order: Verse 1 (the past), Verse 2 (now), Bridge (the evenings since), Chorus (together, three years on).
 - Brand asset for seeding: Casedrops gold logo, transparent PNG, Higgsfield media `5e4225a7-2e02-42ed-8262-629502134785`.
-- The song is not in Higgsfield yet: this environment's network policy blocks `upload.higgsfield.ai`. It is only needed for the final edit.
+- Song in Higgsfield: media `3687c09b-f7dd-410b-9c81-a4769ad42747` (MP3, 192 kbps, 2:35.7).
 
 ## Resolved
 
