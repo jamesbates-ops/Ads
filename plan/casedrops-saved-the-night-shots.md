@@ -94,6 +94,46 @@ The start frame for each shot. The video clip for each shot is generated from it
 | 33 | reused S7 | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_110939_cc86b829-f56a-4c19-bd76-61558e6daa4c.png) | `cc86b829-f56a-4c19-bd76-61558e6daa4c` |
 | 34 | reused S8 (end card) | [view](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_111416_61b65c81-b627-4f37-b90a-73cfa2691db6.png) | `61b65c81-b627-4f37-b90a-73cfa2691db6` |
 
+## Video clips
+
+Kling 3.0 Pro, 1080p, 9:16, no audio. Each clip starts from that shot's start frame above. There are 33 clips totalling 176s of footage; shot 34 (the end card) is assembled in the edit.
+
+| # | Length | Clip | Higgsfield job |
+|---|---|---|---|
+| 01 | 8s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_7b0c7aff-9418-4fc1-9f23-12ab41e54cc7.mp4) | `7b0c7aff-9418-4fc1-9f23-12ab41e54cc7` |
+| 02 | 6s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120855_a2e281a5-2a7f-4e54-bc61-dc26a7b16541.mp4) | `a2e281a5-2a7f-4e54-bc61-dc26a7b16541` |
+| 03 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121100_ed4be09d-8296-4891-8a0d-2d22098738b9.mp4) | `ed4be09d-8296-4891-8a0d-2d22098738b9` |
+| 04 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_fbf92fab-fc14-41cf-a397-f525d3bfa25a.mp4) | `fbf92fab-fc14-41cf-a397-f525d3bfa25a` |
+| 05 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_2b9c4c59-ffc6-496e-b6ae-77ff74e56347.mp4) | `2b9c4c59-ffc6-496e-b6ae-77ff74e56347` |
+| 06 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_2e66b433-7c44-4054-98d5-109c6c56d134.mp4) | `2e66b433-7c44-4054-98d5-109c6c56d134` |
+| 07 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120855_c6665f0f-c8b0-444e-8fe3-1eb594a6452e.mp4) | `c6665f0f-c8b0-444e-8fe3-1eb594a6452e` |
+| 08 | 6s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_20b0f91a-b3b6-4fc9-98c7-3284248adfc5.mp4) | `20b0f91a-b3b6-4fc9-98c7-3284248adfc5` |
+| 09 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_4812898f-580e-4e9c-9853-8f9566b0b593.mp4) | `4812898f-580e-4e9c-9853-8f9566b0b593` |
+| 10 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_e66d2d12-ca2d-46ef-9272-663aa2349c60.mp4) | `e66d2d12-ca2d-46ef-9272-663aa2349c60` |
+| 11 | 7s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120854_157bb5ec-1b4b-4abf-a2dd-a7edc8869fbd.mp4) | `157bb5ec-1b4b-4abf-a2dd-a7edc8869fbd` |
+| 12 | 8s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121100_16ef4872-22b6-4570-b8f7-01003b2e1da5.mp4) | `16ef4872-22b6-4570-b8f7-01003b2e1da5` |
+| 13 | 6s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_f5b9488e-23f0-49fc-87a4-6fbc283e2fbf.mp4) | `f5b9488e-23f0-49fc-87a4-6fbc283e2fbf` |
+| 14 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_49ca027c-bdf4-4bf1-b18d-629e85afae69.mp4) | `49ca027c-bdf4-4bf1-b18d-629e85afae69` |
+| 15 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_d3005daa-187b-4028-9b62-1b4ccf3667ea.mp4) | `d3005daa-187b-4028-9b62-1b4ccf3667ea` |
+| 16 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121100_af32286b-278e-4dfa-8ace-3591b263fcb0.mp4) | `af32286b-278e-4dfa-8ace-3591b263fcb0` |
+| 17 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121059_00e14de8-bd4b-4348-ac55-9613c1b004a1.mp4) | `00e14de8-bd4b-4348-ac55-9613c1b004a1` |
+| 18 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_fe58824e-692f-4567-b2d7-f8efe353fb1a.mp4) | `fe58824e-692f-4567-b2d7-f8efe353fb1a` |
+| 19 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_739a27bf-dd86-43ad-8ef3-5daab21b126e.mp4) | `739a27bf-dd86-43ad-8ef3-5daab21b126e` |
+| 20 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_9ca7f480-4904-4803-aade-1c1b3c403c94.mp4) | `9ca7f480-4904-4803-aade-1c1b3c403c94` |
+| 21 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_98db331a-102a-4129-b0b3-b7c4b1bc9880.mp4) | `98db331a-102a-4129-b0b3-b7c4b1bc9880` |
+| 22 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_4f3e1f1d-97f7-4568-9532-51ab4f26ad8f.mp4) | `4f3e1f1d-97f7-4568-9532-51ab4f26ad8f` |
+| 23 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_60ee8a80-270c-4f9b-a567-905a108b6ff6.mp4) | `60ee8a80-270c-4f9b-a567-905a108b6ff6` |
+| 24 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_120859_368ceb85-5525-47a8-9497-13fa10573e04.mp4) | `368ceb85-5525-47a8-9497-13fa10573e04` |
+| 25 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121126_0aad4060-183b-4a8a-a26b-16f2c14be0bf.mp4) | `0aad4060-183b-4a8a-a26b-16f2c14be0bf` |
+| 26 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121126_5104dbe4-1244-43d9-9211-76e44fa19224.mp4) | `5104dbe4-1244-43d9-9211-76e44fa19224` |
+| 27 | 5s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_afdfdc9c-7654-4301-b25e-2a12b3993b35.mp4) | `afdfdc9c-7654-4301-b25e-2a12b3993b35` |
+| 28 | 7s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_207b0e10-ddc2-40bd-8fb4-c74968ed4dbc.mp4) | `207b0e10-ddc2-40bd-8fb4-c74968ed4dbc` |
+| 29 | 4s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_371da777-51a5-48bf-a571-d9d8e79831c0.mp4) | `371da777-51a5-48bf-a571-d9d8e79831c0` |
+| 30 | 10s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121126_c6094100-4458-47d3-8c57-64713ec3a7b4.mp4) | `c6094100-4458-47d3-8c57-64713ec3a7b4` |
+| 31 | 7s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_b38a4852-0fb6-4b98-9b07-903b6d8503d2.mp4) | `b38a4852-0fb6-4b98-9b07-903b6d8503d2` |
+| 32 | 6s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121128_6896d191-c7f0-4511-8c00-167be64ec009.mp4) | `6896d191-c7f0-4511-8c00-167be64ec009` |
+| 33 | 9s | [play](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_121127_ced1b8d8-b2b4-474f-9f1b-f4e73678d5cb.mp4) | `ced1b8d8-b2b4-474f-9f1b-f4e73678d5cb` |
+
 ## Cost (Winedrops workspace, about 5,120 credits available)
 
 | Item | Qty | Credits |
