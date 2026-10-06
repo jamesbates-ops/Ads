@@ -1,0 +1,192 @@
+{
+ "root": "Casedrops_Edit_Pack",
+ "dirs": {
+  "hook": "1_Hook_clips",
+  "red": "2_Body_BRoll/Red_wine",
+  "white": "2_Body_BRoll/White_wine",
+  "vo": "3_Voiceover"
+ },
+ "zip": {
+  "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/e4eef72f-79cd-40ee-8f35-9b31dd5a51c6.zip",
+  "name": "Casedrops_Edit_Pack.zip"
+ },
+ "docname": "00_Casedrops_Briefing_Pack.docx",
+ "page": "https://claude.ai/artifact/5NKX3zzMt4caJCUQBDJZAw",
+ "hooks": [
+  {
+   "name": "Bottle 1",
+   "ver": "red",
+   "zip": "Hook_Bottle1_RED.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_160758_d35dcb13-7f5b-421b-8f47-294256f2b74b.mp4"
+  },
+  {
+   "name": "Bottle 3",
+   "ver": "red",
+   "zip": "Hook_Bottle3_RED.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162657_b94b3140-4458-4322-a3a7-5be5bd705c3f.mp4"
+  },
+  {
+   "name": "Bottle 4 · Dolum Estates",
+   "ver": "red",
+   "zip": "Hook_Bottle4_DolumEstates_RED.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162657_efc8b4b3-d4d6-43c0-a5f1-d1e3faa6d3a4.mp4"
+  },
+  {
+   "name": "Bottle 2",
+   "ver": "white",
+   "zip": "Hook_Bottle2_WHITE.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260924_162705_c2f91e46-1ac8-46ba-a10a-2ffe1ee96954.mp4"
+  }
+ ],
+ "broll": [
+  {
+   "code": "BR1",
+   "act": "Writing in the notebook",
+   "under": "S1",
+   "red": {
+    "zip": "BR1_RED_writing.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113156_a1d50190-5fea-4dda-bb5c-a8cd30def2f0.mp4"
+   },
+   "white": {
+    "zip": "BR1_WHITE_writing.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130318_129b914c-7032-4578-8303-f814eda021c8.mp4"
+   }
+  },
+  {
+   "code": "BR2",
+   "act": "Still writing, glances up at the wine, back to writing",
+   "under": "S1 / S2",
+   "red": {
+    "zip": "BR2_RED_glance-at-wine.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113158_35b5fc87-f4d6-4d28-8453-d9e3c4ed873b.mp4"
+   },
+   "white": {
+    "zip": "BR2_WHITE_glance-at-wine.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130319_65c85264-12fd-40cc-abad-f1e59788a182.mp4"
+   }
+  },
+  {
+   "code": "BR3",
+   "act": "Puts the pen down, picks up her phone, starts scrolling",
+   "under": "S2",
+   "red": {
+    "zip": "BR3_RED_pen-down-phone-up.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_65089c32-0f58-4e41-9eba-27e9c32ea91e.mp4"
+   },
+   "white": {
+    "zip": "BR3_WHITE_pen-down-phone-up.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130316_9092df4d-076b-4491-aa63-43df3aa78325.mp4"
+   }
+  },
+  {
+   "code": "BR4",
+   "act": "Scrolling, small smile at something on screen",
+   "under": "S2 / S3",
+   "red": {
+    "zip": "BR4_RED_scrolling-smile.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_2a9ca973-d005-48ff-a622-01fd0c7c6036.mp4"
+   },
+   "white": {
+    "zip": "BR4_WHITE_scrolling-smile.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130317_21f9e07e-0708-402d-a61c-1108a197fb05.mp4"
+   }
+  },
+  {
+   "code": "BR5",
+   "act": "Sets the phone face-down, picks up the glass, sips",
+   "under": "S3",
+   "red": {
+    "zip": "BR5_RED_phone-down-sip.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113145_a681cbc1-2d9f-422c-9667-39c04a569bb7.mp4"
+   },
+   "white": {
+    "zip": "BR5_WHITE_phone-down-sip.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130319_96eecd1f-bba1-482c-a587-7ad2166bc29e.mp4"
+   }
+  },
+  {
+   "code": "BR6",
+   "act": "Slow swirl of the glass, content",
+   "under": "S4",
+   "red": {
+    "zip": "BR6_RED_swirl.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_120855_4b406e6a-1662-48f6-8a9b-52a8d765ad2e.mp4"
+   },
+   "white": {
+    "zip": "BR6_WHITE_swirl.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_123158_21c9a183-3d53-45c3-bdde-2261cfe403da.mp4"
+   }
+  },
+  {
+   "code": "BR7",
+   "act": "Looks up at camera with a knowing smile, small cheers, sips",
+   "under": "S5",
+   "red": {
+    "zip": "BR7_RED_cheers.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_113146_dcc75b10-e910-4f59-887e-b667786d9ed5.mp4"
+   },
+   "white": {
+    "zip": "BR7_WHITE_cheers.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_130317_63830d4d-3502-4b1f-92e4-dc92aeca50f7.mp4"
+   }
+  }
+ ],
+ "vo": [
+  {
+   "code": "H1",
+   "text": "This bottle usually costs $80, I got it for $20. Here’s how.",
+   "dur": "6.96",
+   "zip": "H1_hook_80-to-20.mp3",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_091714_382debb8-8218-4c15-8edf-41a8fb7eefc3.mp3"
+  },
+  {
+   "code": "H2",
+   "text": "This wine is flawless, and I got it for 70% off. Here’s how.",
+   "dur": "5.20",
+   "zip": "H2_hook_70-off.mp3",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_091714_8cc942cc-b21b-458a-a255-337e7672758f.mp3"
+  },
+  {
+   "code": "H3",
+   "text": "I love great wine, but I LOVE a deal. Here’s how I got both.",
+   "dur": "4.56",
+   "zip": "H3_hook_great-wine-great-deal.mp3",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_083346_975826aa-064f-4289-bfdf-c2aba404b818.mp3"
+  },
+  {
+   "code": "S1",
+   "text": "This is Casedrops, it’s a community where great wines are delivered to you for free, at trade prices.",
+   "dur": "8.00",
+   "zip": "S1_this-is-casedrops.mp3",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_083345_b2627791-d0a8-400b-9e34-7afeb94c0bdf.mp3"
+  },
+  {
+   "code": "S2",
+   "text": "Just choose a bottle, reserve it in your cellar, and then press deliver once you hit 6 bottles.",
+   "dur": "6.08",
+   "zip": "S2_choose-reserve-deliver.mp3",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_091716_34e88bfc-5ffb-4c7e-b3c9-fa260c83398a.mp3"
+  },
+  {
+   "code": "S3",
+   "text": "And unlike other services, if you don’t like the wine, just let them know and you’ll get a full refund.",
+   "dur": "7.52",
+   "zip": "S3_full-refund.mp3",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_091714_67066146-85bf-4e9c-8588-4b7040079159.mp3"
+  },
+  {
+   "code": "S4",
+   "text": "So if you don’t like it, you can always get your money back.",
+   "dur": "4.00",
+   "zip": "S4_money-back.mp3",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_091715_8620c3db-9e47-4e47-8f24-730f1acc611c.mp3"
+  },
+  {
+   "code": "S5",
+   "text": "Something tells me you won’t though.",
+   "dur": "3.04",
+   "zip": "S5_you-wont-though.mp3",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20260925_091715_f9eefeda-2301-4afc-87d6-a7d0db021f39.mp3"
+  }
+ ]
+}

@@ -90,21 +90,25 @@ The IDs are Higgsfield job IDs, shortened to the first block.
 
 ## Edit pack (handover)
 
-Everything the editors need is in one zip: [Casedrops_Edit_Pack.zip](https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/686e2ccd-d318-4e27-870b-19f9a760c09e.zip) (Higgsfield file `686e2ccd-d318-4e27-870b-19f9a760c09e`, 81.8 MB, 26 media files). Its folders follow the sections of the Casedrops Edit Pack page, and the page shows each file's name in the zip next to its link.
+Everything the editors need is in one zip: [Casedrops_Edit_Pack.zip](https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/e4eef72f-79cd-40ee-8f35-9b31dd5a51c6.zip) (Higgsfield file `e4eef72f-79cd-40ee-8f35-9b31dd5a51c6`, 81.8 MB, 26 media files plus the brief and a file index). Its folders follow the sections of the Casedrops Edit Pack page, and the page shows each file's name in the zip next to its link.
+
+The briefing pack is a Word doc, `00_Casedrops_Briefing_Pack.docx`, at the top of the zip. It is also hosted on its own: [docx](https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/348af439-c63f-479b-a774-f56ac5d4fc34.docx) (Higgsfield file `348af439-c63f-479b-a774-f56ac5d4fc34`). It has the same sections as the page: download, how the cut runs, hook clips, body B-roll, voiceover, before release. Every file name in it links to that file online. The source is in `brief/`: `build_brief.js` and `brief.json` rebuild it, and `Casedrops_Briefing_Pack.docx` is a local copy with the same text and links.
 
 ```
 Casedrops_Edit_Pack/
-  00_README.txt              cut order, specs, release checks
-  file_index.csv             every file: section, version, line it plays under, duration, source file
-  1_Hook_clips/              Hook_Bottle1_RED, Hook_Bottle2_WHITE, Hook_Bottle3_RED, Hook_Bottle4_DolumEstates_RED (.mp4)
-  2_Body_BRoll/Red_wine/     BR1_RED_writing ... BR7_RED_cheers (.mp4)
-  2_Body_BRoll/White_wine/   BR1_WHITE_writing ... BR7_WHITE_cheers (.mp4)
-  3_Voiceover/               H1_hook_80-to-20 ... S5_you-wont-though (.mp3)
+  00_Casedrops_Briefing_Pack.docx   the brief (Word)
+  file_index.csv                    every file: section, version, line it plays under, duration, source file
+  1_Hook_clips/                     Hook_Bottle1_RED, Hook_Bottle2_WHITE, Hook_Bottle3_RED, Hook_Bottle4_DolumEstates_RED (.mp4)
+  2_Body_BRoll/Red_wine/            BR1_RED_writing ... BR7_RED_cheers (.mp4)
+  2_Body_BRoll/White_wine/          BR1_WHITE_writing ... BR7_WHITE_cheers (.mp4)
+  3_Voiceover/                      H1_hook_80-to-20 ... S5_you-wont-though (.mp3)
 ```
 
 B-roll names: BR1 writing, BR2 glance-at-wine, BR3 pen-down-phone-up, BR4 scrolling-smile, BR5 phone-down-sip, BR6 swirl, BR7 cheers. Voiceover names: H1 hook_80-to-20, H2 hook_70-off, H3 hook_great-wine-great-deal, S1 this-is-casedrops, S2 choose-reserve-deliver, S3 full-refund, S4 money-back, S5 you-wont-though.
 
-Checked after the upload: the zip downloads from the link and passes `unzip -t`. Hooks are 4.04s at 1080×1912, red B-roll 5.04s at 1080×1912, and white B-roll 5.04s at 1082×1916. The CSV gives the mp3 durations as the container reads them (for example, H1 reads 7.00s there; the page and the takes table give 6.96s, the length Higgsfield reported).
+Checked after the upload: the zip downloads from the link and passes `unzip -t`, and the docx in the zip is byte-identical to the hosted one. Hooks are 4.04s at 1080×1912, red B-roll 5.04s at 1080×1912, and white B-roll 5.04s at 1082×1916. The CSV gives the mp3 durations as the container reads them (for example, H1 reads 7.00s there; the page, the brief and the takes table give 6.96s, the length Higgsfield reported).
+
+The first zip (`686e2ccd-d318-4e27-870b-19f9a760c09e`, with a plain-text README instead of the Word brief) is superseded.
 
 ## Claims to check before release
 - H1 says $80 to $20, which is 75% off. H2 says 70% off. If both refer to the same bottle, make the numbers agree.
