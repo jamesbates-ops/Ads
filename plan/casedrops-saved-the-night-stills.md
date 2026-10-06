@@ -27,7 +27,7 @@ All stills: Nano Banana Pro at 2K, 1536×2752, generated in the Winedrops Higgsf
 | 5 | Verse 3 | 1:22–1:33 | The Casedrops case on her doormat in sunlight; she opens it to find Champagne and Cabernet | `80547d28-d7f8-4d57-8b32-aa7584e27b36` |
 | 6 | Chorus | 1:45–2:19 | Family toast in candlelight; he has his arm around her; the case sits on the sideboard | `c557d70f-2307-4cf8-a08c-ec3809251c81` |
 | 7 | Outro | 2:19–2:41 | Her birthday: he's at her door with a Casedrops case tied with an amber bow; she raises an eyebrow | `cc86b829-f56a-4c19-bd76-61558e6daa4c` |
-| 8 | End card | 2:41–2:55 | 3D amber wordmark on navy, rising bubbles, "Top-shelf wine. Up to 80% off." | `81254aed-00c4-4371-b9a5-d3e1dfa9f60a` |
+| 8 | End card | 2:41–2:55 | 3D amber wordmark on navy, rising bubbles, "Top-shelf wine. Up to 80% off." Edited to remove a stray white logo; the original was `81254aed-00c4-4371-b9a5-d3e1dfa9f60a` | `61b65c81-b627-4f37-b90a-73cfa2691db6` |
 
 Each image is at `https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261006_<hhmmss>_<job>.png`. The links are also in the Higgsfield generation history.
 
