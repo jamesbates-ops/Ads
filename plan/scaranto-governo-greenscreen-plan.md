@@ -1,76 +1,79 @@
-# Scaranto Governo — green-screen ad for Winedrops
+# Scaranto Governo — green-screen presenter for Winedrops
 
-Format: vertical 9:16 (1080×1920, 24 fps). The presenter from the seed photo is keyed off a green screen and sits bottom-right over full-frame B-roll, creator style. Three versions share one body and differ only in the opening hook.
+These are green-screen clips only. The editor keys the presenter and adds the B-roll.
 
-Voice: Callum (Higgsfield preset `858499d9-fef5-40e1-bc29-b4dc661dc283`), applied to every clip so the voice is the same all the way through. No music bed.
+The man from the seed photo talks to camera, waist-up, on a flat chroma green (about RGB 2,157,57, `#029D39`). The clips are vertical 9:16, 720×1280, 24 fps, H.264 with AAC 48 kHz stereo. The voice is Callum (Higgsfield preset `858499d9-fef5-40e1-bc29-b4dc661dc283`) on every line, and every line is levelled to −16 LUFS (peaks at −0.7 dBFS). There is no music and there are no captions.
 
-![Contact sheet](frames/scaranto_contact_sheet.jpg)
+![Contact sheet](frames/scaranto_greenscreen_contact_sheet.jpg)
 
-Top row: hooks 1–3, B01–B03. Bottom row: B04–B09.
+Top row: H1, H2, H3, B01, B02, B03. Bottom row: B04–B09.
 
 ## Deliverables
 
 | File | Length | Link |
 |---|---|---|
-| Hook 1 — "best story on any dinner table" | 72.7s | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/85258bab-cbc5-4125-8525-9cf26918869a.mp4 |
-| Hook 2 — "99 and 100 points, but illegal in Italy" | 74.3s | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/fc33d356-1be5-4525-bf4b-baee22f0ee43.mp4 |
-| Hook 3 — "a few Tuscan families broke the rules" | 73.5s | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/096704d8-51cf-4b02-ac06-ae446e91de41.mp4 |
-| Everything as one ZIP (430 MB) | — | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/60f88d57-015c-44e8-a57f-78629c53be26.zip |
-| Contact sheet | — | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/47693506-e87a-4eab-9d4b-e8644cefce35.jpg |
+| ZIP of everything (138 MB) | — | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/0e03b3aa-d0fa-4ab6-ac8a-80feecebd6eb.zip |
 
-ZIP contents: the three final MP4s; `greenscreen/` (each voiced green-screen presenter clip trimmed to the cut, plus B01–B09 as one track); `broll/` (all 11 untrimmed B-roll clips); `reference/` (seed photo and the green-screen identity still); `README.txt`; `qc_report.txt`; `contact_sheet.jpg`.
+Inside the ZIP:
 
-## Timeline
+- `scaranto_greenscreen_hook1_best_story.mp4` (72.7s), `scaranto_greenscreen_hook2_critics_illegal.mp4` (74.3s) and `scaranto_greenscreen_hook3_broke_the_rules.mp4` (73.5s). Each is one continuous green-screen track: the hook followed by the shared body.
+- `lines/`: each of the 12 lines as its own clip, cut tight to the speech. The full versions are built from these.
+- `lines_untrimmed/`: the same 12 lines with the full generated tail, a second or so of him holding a look, for handles.
+- `reference/greenscreen_reference.png`: the still the clips were generated from.
+- `README.txt`: timecodes for all three versions.
+- `contact_sheet.jpg`.
 
-The hook runs first (H1 3.7s, H2 5.3s or H3 4.6s), then the shared body. Body times are measured from the end of the hook.
+## Timecodes
 
-| Block | Body start | Length | Script section | Line (as spoken) | B-roll | On-screen text |
-|---|---|---|---|---|---|---|
-| H1 | — | 3.7s | Interrupt | "This is the bottle with the best story on any dinner table." | Candlelit dinner table, blank-label bottle | — |
-| H2 | — | 5.3s | Interrupt | "Two critics gave this ninety-nine and one hundred points, but the style was illegal in Italy." | same | — |
-| H3 | — | 4.6s | Interrupt | "This wine exists because a few Tuscan families broke the rules." | same | — |
-| B01 | 0.0s | 6.0s | Gap | "Back in the seventies, Chianti law told Tuscan winemakers exactly which grapes they could use." | Chianti hills, cypress road (70s film grade) | — |
-| B02 | 6.0s | 6.7s | Gap | "A few families planted Merlot and Cabernet anyway, and had to sell what they made as plain table wine." | Carafe of table wine poured on farmhouse table (70s film grade) | — |
-| B03 | 12.6s | 9.9s | Stake + mechanism | "Those table wines turned into Sassicaia and Tignanello. Collectors now pay well over fifty pounds a bottle for them, and the wine world gave them their own name: Super Tuscans." | Collector's cellar, bottle drawn from rack | — |
-| B04 | 22.5s | 10.0s | Revelation | "Scaranto is Matteo Bernabei's project, made with his dad Franco, one of the best-known winemakers in Tuscany. They named this one Governo after an old Tuscan farmhouse trick." | Hand-picking Sangiovese, farmhouse behind | Hand-picked |
-| B05 | 32.5s | 9.7s | Revelation | "Some of the grapes are left to dry, then go back into the wine, which makes it softer and rounder. After that it spends three months in French oak." | Grapes drying on racks, then French oak barrels (cut on "After") | + Dried grapes, + French oak |
-| B06 | 42.2s | 5.8s | Payoff + proof | "Then the critics tasted it. Luca Maroni gave it ninety-nine. Cosimo Dell'Anna gave it a perfect one hundred." | Critic swirling a glass by candlelight | — |
-| B07 | 48.0s | 6.8s | Payoff + proof | "In the glass you get black cherry, dried rose, a bit of tobacco, and a finish that keeps going." | Slow-mo pour with black cherries, dried rose, tobacco leaf | — |
-| B08 | 54.8s | 8.0s | CTA | "And Winedrops will do a case of six for sixty-nine pounds ninety-nine, so under twelve pounds each. That's seventy percent off its normal price." | Wooden case of six blank-label bottles opened | — |
-| B09 | 62.8s | 6.0s | CTA | "Get on the app, and tell people its story over a nice glass at dinner." | Dinner party clinking glasses | — |
+The hook comes first: H1 runs 3.75s, H2 5.33s and H3 4.58s. The body follows. Body times are measured from the end of the hook. Add the hook length to get the time in each version.
 
-## Changes from the brief
+| Block | Body start | Length | Section | Line (as spoken) | On-screen text cue |
+|---|---|---|---|---|---|
+| H1 | — | 3.75s | Interrupt | "This is the bottle with the best story on any dinner table." | |
+| H2 | — | 5.33s | Interrupt | "Two critics gave this ninety-nine and one hundred points, but the style was illegal in Italy." | |
+| H3 | — | 4.58s | Interrupt | "This wine exists because a few Tuscan families broke the rules." | |
+| B01 | 0.00s | 5.96s | Gap | "Back in the seventies, Chianti law told Tuscan winemakers exactly which grapes they could use." | |
+| B02 | 5.96s | 6.71s | Gap | "A few families planted Merlot and Cabernet anyway, and had to sell what they made as plain table wine." | |
+| B03 | 12.67s | 9.91s | Stake + mechanism | "Those table wines turned into Sassicaia and Tignanello. Collectors now pay well over fifty pounds a bottle for them, and the wine world gave them their own name: Super Tuscans." | |
+| B04 | 22.58s | 10.00s | Revelation | "Scaranto is Matteo Bernabei's project, made with his dad Franco, one of the best-known winemakers in Tuscany. They named this one Governo after an old Tuscan farmhouse trick." | "Hand-picked" |
+| B05 | 32.58s | 9.75s | Revelation | "Some of the grapes are left to dry, then go back into the wine, which makes it softer and rounder. After that it spends three months in French oak." | "Dried grapes"; "French oak" on "After that" (+6.75s) |
+| B06 | 42.33s | 5.84s | Payoff + proof | "Then the critics tasted it. Luca Maroni gave it ninety-nine. Cosimo Dell'Anna gave it a perfect one hundred." | |
+| B07 | 48.17s | 6.79s | Payoff + proof | "In the glass you get black cherry, dried rose, a bit of tobacco, and a finish that keeps going." | |
+| B08 | 54.96s | 8.00s | CTA | "And Winedrops will do a case of six for sixty-nine pounds ninety-nine, so under twelve pounds each. That's seventy percent off its normal price." | |
+| B09 | 62.96s | 6.00s | CTA | "Get on the app, and tell people its story over a nice glass at dinner." | |
+| end | 68.96s | | | | |
 
-- **Length.** The brief allows 45s, but the voiceover runs about 69s at a natural pace, so each cut lands at 72–74s. Speech was not sped up. To reach 45s, the script needs to lose about 80 words. The Gap and Revelation sections are the longest.
-- **[SOURCE].** The 100-point critic is filled in as **Cosimo Dell'Anna**. US retailer listings (Laithwaites group) credit him with 100 points for the **2020** vintage. Check both scores against the vintage Winedrops is actually selling before this runs. If it's wrong, only clips B06 and H2 need regenerating.
-- **Script splits.** Each section was split at sentence boundaries so every talking clip stays under 10 seconds. No words were changed apart from spelling numbers out for speech: "£69.99" → "sixty-nine pounds ninety-nine", "70%" → "seventy percent".
-- **On-screen text.** "Hand-picked / Dried grapes / French oak" builds up over B04–B05, timed to the B-roll and the word "After". No other text or captions were added.
-- **Seed photo.** The man was taken out of the kitchen and the white-wine bottles (La Crema and others) were removed. He was regenerated waist-up on a green screen ([reference still](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261007_094818_5878666a-29e4-4505-8e0c-ed0eb989d9e7.png)), so no other brand's label appears in the ad.
-- **Product shots.** No Scaranto packshot was supplied, so every bottle in the B-roll has a blank label. Drop a real packshot into the hook and CTA if you have one.
+## Notes for the edit
+
+- **Jump cuts.** Every line is a separate generation, so his pose shifts slightly at each cut. Cover the cuts with B-roll or a punch-in.
+- **Key.** All 12 lines share one green. B02 and B07 were generated on an olive green and were re-keyed onto the same green as the rest (same frames, QC-passed key), so one key setting covers the whole track. Their originals are listed below if needed.
+- **Resolution.** The source model tops out at 720p. That's fine when he's keyed over B-roll at about half the frame height. Full-frame at 1080×1920 would need an upscale.
+- **Length.** The brief allows 45s, but the voiceover runs about 69s at a natural pace, plus the hook. Speech was not sped up. To reach 45s, the script needs to lose about 80 words. The Gap and Revelation sections are the longest.
 
 ## Copy and compliance flags for review
 
-- Hook 2's "the style was illegal in Italy" overstates the history. The style was never illegal. It just didn't qualify for Chianti DOC, so it had to be sold as *vino da tavola*. ASA could treat that as misleading; "the style broke Italian wine law" or "Italian wine law wouldn't allow it" says the same thing accurately.
-- "70% off its normal price" needs a substantiated reference price (about £38.90 a bottle) before it runs in the UK.
+- **[SOURCE].** This is filled in as **Cosimo Dell'Anna**. US retailer listings (Laithwaites group) credit him with 100 points for the **2020** vintage. Check both scores against the vintage Winedrops is selling. If it's wrong, only clips B06 and H2 need regenerating.
+- **Hook 2.** "The style was illegal in Italy" overstates the history. The wines just didn't qualify for Chianti DOC, so they were sold as *vino da tavola*. ASA could treat that as misleading; "Italian wine law wouldn't allow it" says the same thing accurately.
+- **"70% off its normal price."** This needs a substantiated reference price (about £38.90 a bottle) before it runs in the UK.
+- **Spoken numbers.** Apart from writing prices and percentages out for speech ("£69.99" → "sixty-nine pounds ninety-nine", "70%" → "seventy percent"), the lines match the script word for word.
 
 ## How it was made (Higgsfield)
 
-- Green-screen identity still: `gpt_image_2` edit of the seed photo, job `5878666a-29e4-4505-8e0c-ed0eb989d9e7`.
-- Talking clips: `gemini_omni`, 9:16 720p, one per block, then `voice_change` to Callum. B02 and B07 were regenerated once because the first takes had a tighter crop and a duller green.
-- B-roll: `kling3_0` pro, 9:16 1080p, silent. The drying-grapes shot was regenerated once because the grapes looked like tomatoes.
-- Assembly: [`scaranto-governo-build.sh`](scaranto-governo-build.sh), run in the Higgsfield sandbox. It measures each clip's speech end with faster-whisper and trims to it. Presenter keying uses the narration workflow's `presenter_composite.sh` (cutout, bottom-right, full frame width, 60% height); every block passed its key QC. The script also adds the on-screen text, cuts the three hook versions and packages the ZIP. It reads its upload URLs from `/home/user/urls.env`, which is not committed.
+- **Green-screen identity still:** a `gpt_image_2` edit of the seed photo, job `5878666a-29e4-4505-8e0c-ed0eb989d9e7`. The kitchen, the table and the other brands' bottles were removed, and he was reframed waist-up on green.
+- **Talking clips:** `gemini_omni`, 9:16 720p, one generation per line, then `voice_change` to Callum. Each clip was checked against the script with faster-whisper.
+- **Package:** [`scaranto-governo-greenscreen-build.sh`](scaranto-governo-greenscreen-build.sh) rebuilds the ZIP from the job URLs below. Needs curl, ffmpeg, python3 and zip.
 
-| Block | Voiced green-screen job | B-roll job |
+| Block | Voiced green-screen job | Note |
 |---|---|---|
-| H1 | `2ab5ee83-318a-4840-8b47-9baa4303b8e0` | `9e99fae2-13d2-4e54-ac5c-02a13f1ff507` |
-| H2 | `0feffe8a-3076-4bcd-8dcc-7514ff3005db` | (same) |
-| H3 | `233ba7e4-a0fe-4b00-ab19-92f5a934d8d3` | (same) |
-| B01 | `e1895c87-240e-402f-be4f-d873abcb7ee0` | `75eb2adb-344e-48da-8c65-77b30535eaad` |
-| B02 | `f62f818f-b12a-46ca-a056-2309a0594bec` | `3ad6a41d-0616-49ae-becb-2915c9a69712` |
-| B03 | `79bf447d-8e85-4c31-b6f1-d5ce3f6e59e7` | `865674ed-2697-4ca3-8878-ebfd44b0dd28` |
-| B04 | `0c449be4-0b6e-4d19-afd4-d2181d99623f` | `50e8c388-c113-4727-a269-345350eb62d3` |
-| B05 | `8924c62f-411b-488b-bdca-4213ffc4956b` | `43e3cd62-48b2-4288-ab35-f1f597088fe1` then `a3c4cbbc-f7a7-489d-9a00-28dce1c4b64f` |
-| B06 | `4b53ced3-0bf1-43bd-acae-c9a7c9bacf7c` | `2402dbf5-343e-4f22-a85c-886189eef253` |
-| B07 | `9680243c-977a-4972-8701-863ba7e7a6f1` | `bd1b794a-d78a-4399-be4b-f8a4482788ba` |
-| B08 | `fce0af41-4e63-4d16-bb83-66f24b1d3594` | `57330cfe-6afa-4288-ad0b-36ce0caa38c7` |
-| B09 | `48147e82-d2a8-4db4-92c3-ba2c8038f70a` | `5b3dfe06-2cad-4849-85a2-8a0bf997d3cc` |
+| H1 | `2ab5ee83-318a-4840-8b47-9baa4303b8e0` | |
+| H2 | `0feffe8a-3076-4bcd-8dcc-7514ff3005db` | |
+| H3 | `233ba7e4-a0fe-4b00-ab19-92f5a934d8d3` | |
+| B01 | `e1895c87-240e-402f-be4f-d873abcb7ee0` | |
+| B02 | `f62f818f-b12a-46ca-a056-2309a0594bec` | Re-greened video: upload `ee835294-95af-4bb5-a901-016c0fd57436` |
+| B03 | `79bf447d-8e85-4c31-b6f1-d5ce3f6e59e7` | |
+| B04 | `0c449be4-0b6e-4d19-afd4-d2181d99623f` | |
+| B05 | `8924c62f-411b-488b-bdca-4213ffc4956b` | |
+| B06 | `4b53ced3-0bf1-43bd-acae-c9a7c9bacf7c` | |
+| B07 | `9680243c-977a-4972-8701-863ba7e7a6f1` | Re-greened video: upload `21a7e783-1c10-474a-81e3-afab8806be28` |
+| B08 | `fce0af41-4e63-4d16-bb83-66f24b1d3594` | |
+| B09 | `48147e82-d2a8-4db4-92c3-ba2c8038f70a` | |
