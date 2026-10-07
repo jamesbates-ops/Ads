@@ -8,6 +8,7 @@ Format: 720×1280 (9:16), 24 fps, H.264 with AAC 48 kHz stereo, on a flat chroma
 
 ## Deliverables
 
+- **Clips only (the requested deliverable):** the 19 tight clips in one ZIP, 45 MB: https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/5ff6b072-289d-4d3e-bdd4-48ae0c26af15.zip
 - ZIP with every clip, tight and untrimmed, plus a README and contact sheet (94 MB): https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/23cadb7d-aead-4a21-9660-fdeb16e560c0.zip
 - The tight clips alone were sent directly in the session as two zips (part 1: H1–H3, B00–B06; part 2: B07–B15).
 
