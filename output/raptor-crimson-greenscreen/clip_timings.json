@@ -1,0 +1,92 @@
+{
+ "H1": {
+  "trim_in": 0.32,
+  "trim_out": 6.95,
+  "duration": 6.63
+ },
+ "H2": {
+  "trim_in": 0.14,
+  "trim_out": 4.71,
+  "duration": 4.57
+ },
+ "H3": {
+  "trim_in": 0.36,
+  "trim_out": 5.47,
+  "duration": 5.11
+ },
+ "B1": {
+  "trim_in": 0.08,
+  "trim_out": 6.99,
+  "duration": 6.91
+ },
+ "B2": {
+  "trim_in": 0.04,
+  "trim_out": 7.99,
+  "duration": 7.95
+ },
+ "B3": {
+  "trim_in": 0.22,
+  "trim_out": 8.01,
+  "duration": 7.79
+ },
+ "B4": {
+  "trim_in": 0.14,
+  "trim_out": 9.81,
+  "duration": 9.67
+ },
+ "B5": {
+  "trim_in": 0.18,
+  "trim_out": 8.57,
+  "duration": 8.39
+ },
+ "B6": {
+  "trim_in": 0.18,
+  "trim_out": 8.69,
+  "duration": 8.51
+ },
+ "B7": {
+  "trim_in": 0.0,
+  "trim_out": 6.79,
+  "duration": 6.79
+ },
+ "B8": {
+  "trim_in": 0.0,
+  "trim_out": 7.99,
+  "duration": 7.99
+ },
+ "B9": {
+  "trim_in": 0.28,
+  "trim_out": 7.79,
+  "duration": 7.51
+ },
+ "B10": {
+  "trim_in": 0.16,
+  "trim_out": 6.67,
+  "duration": 6.51
+ },
+ "B11": {
+  "trim_in": 0.08,
+  "trim_out": 7.29,
+  "duration": 7.21
+ },
+ "B12": {
+  "trim_in": 0.14,
+  "trim_out": 8.87,
+  "duration": 8.73
+ },
+ "B13": {
+  "trim_in": 0.24,
+  "trim_out": 8.63,
+  "duration": 8.39
+ },
+ "B14": {
+  "trim_in": 0.06,
+  "trim_out": 7.59,
+  "duration": 7.53
+ },
+ "B15": {
+  "trim_in": 0.18,
+  "trim_out": 6.07,
+  "duration": 5.89
+ }
+}

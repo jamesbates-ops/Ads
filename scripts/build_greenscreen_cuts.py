@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
-"""Trim, loudness-match and assemble the Primitivo green-screen talking clips.
+"""Trim, loudness-match and assemble green-screen talking-head clips.
 
-Inputs are the revoiced (Callum) Higgsfield clips in --src (H1..H3 hooks, B1..B8 body).
-Outputs per-line clips plus one full-length green-screen cut per hook.
+Inputs are the revoiced (Callum) Higgsfield clips in --src, named <line>.mp4
+(hooks H1..Hn, body B1..Bn). Outputs per-line clips plus one full-length
+green-screen cut per hook (hook + every body line, in order).
 """
 import argparse, json, os, subprocess, numpy as np
 
-HOOKS = ["H1", "H2", "H3"]
-BODY = ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8"]
 HEAD, TAIL = 0.12, 0.25          # seconds kept before first / after last speech
 LUFS, TP = -14, -1.5             # social-platform loudness target
 
@@ -59,16 +58,21 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--src", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--hooks", type=int, default=3, help="number of hook clips (H1..Hn)")
+    ap.add_argument("--body", type=int, default=8, help="number of body clips (B1..Bn)")
+    ap.add_argument("--name", default="primitivo", help="prefix for the full-cut file names")
     args = ap.parse_args()
+    hooks = [f"H{i}" for i in range(1, args.hooks + 1)]
+    body = [f"B{i}" for i in range(1, args.body + 1)]
     clips_dir = os.path.join(args.out, "clips")
     os.makedirs(clips_dir, exist_ok=True)
     report = {}
-    for name in HOOKS + BODY:
+    for name in hooks + body:
         report[name] = trim_clip(os.path.join(args.src, f"{name}.mp4"), os.path.join(clips_dir, f"{name}.mp4"))
         print(name, report[name])
-    for i, hook in enumerate(HOOKS, 1):
-        parts = [os.path.join(clips_dir, f"{n}.mp4") for n in [hook] + BODY]
-        concat(parts, os.path.join(args.out, f"primitivo_greenscreen_hook{i}.mp4"))
+    for i, hook in enumerate(hooks, 1):
+        parts = [os.path.join(clips_dir, f"{n}.mp4") for n in [hook] + body]
+        concat(parts, os.path.join(args.out, f"{args.name}_greenscreen_hook{i}.mp4"))
     json.dump(report, open(os.path.join(args.out, "clip_timings.json"), "w"), indent=1)
 
 

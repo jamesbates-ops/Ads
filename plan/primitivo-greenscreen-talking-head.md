@@ -16,7 +16,7 @@ Format: 9:16 portrait, the presenter from the seed photo (navy pinstripe suit, b
 | ZIP of the 11 per-line clips (H1–H3, B1–B8) | — | https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/08bea6ce-59ef-4914-81a6-62873c4ebe4c.zip |
 | Green-screen presenter still (identity reference) | — | https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261007_102506_5f4f1337-6ecf-4d3d-9ea9-a3f29dbd4f48.png |
 
-The MP4s and ZIP are not committed (size). Rebuild them locally from the revoiced Higgsfield clips with `scripts/build_primitivo_greenscreen.py`; `output/primitivo-greenscreen/clip_timings.json` holds the trim points.
+The MP4s and ZIP are not committed (size). Rebuild them locally from the revoiced Higgsfield clips with `scripts/build_greenscreen_cuts.py`; `output/primitivo-greenscreen/clip_timings.json` holds the trim points.
 
 ## Line timings
 
