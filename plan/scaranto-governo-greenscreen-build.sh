@@ -21,7 +21,7 @@ B02	Gap	$G/hf_20261007_095910_f62f818f-b12a-46ca-a056-2309a0594bec.mp4	$M/ee8352
 B03	Stake + mechanism	$G/hf_20261007_095742_79bf447d-8e85-4c31-b6f1-d5ce3f6e59e7.mp4	-	9.89	Those table wines turned into Sassicaia and Tignanello. Collectors now pay well over fifty pounds a bottle for them, and the wine world gave them their own name: Super Tuscans.
 B04	Revelation	$G/hf_20261007_095515_0c449be4-0b6e-4d19-afd4-d2181d99623f.mp4	-	9.96	Scaranto is Matteo Bernabei's project, made with his dad Franco, one of the best-known winemakers in Tuscany. They named this one Governo after an old Tuscan farmhouse trick.
 B05	Revelation	$G/hf_20261007_095518_8924c62f-411b-488b-bdca-4213ffc4956b.mp4	-	9.71	Some of the grapes are left to dry, then go back into the wine, which makes it softer and rounder. After that it spends three months in French oak.
-B06	Payoff + proof	$G/hf_20261007_095521_4b53ced3-0bf1-43bd-acae-c9a7c9bacf7c.mp4	-	5.83	Then the critics tasted it. Luca Maroni gave it ninety-nine. Cosimo Dell'Anna gave it a perfect one hundred.
+B06	Payoff + proof	$G/hf_20261007_151048_587999a4-f019-45e8-a12b-2fba2236885b.mp4	-	6.96	Then the critics tasted it. Luca Maroni gave it ninety-nine. The Italian Wine Guy gave it a perfect one hundred.
 B07	Payoff + proof	$G/hf_20261007_100405_9680243c-977a-4972-8701-863ba7e7a6f1.mp4	$M/21a7e783-1c10-474a-81e3-afab8806be28.mp4	6.79	In the glass you get black cherry, dried rose, a bit of tobacco, and a finish that keeps going.
 B08	CTA	$G/hf_20261007_095523_fce0af41-4e63-4d16-bb83-66f24b1d3594.mp4	-	7.96	And Winedrops will do a case of six for sixty-nine pounds ninety-nine, so under twelve pounds each. That's seventy percent off its normal price.
 B09	CTA	$G/hf_20261007_095525_48147e82-d2a8-4db4-92c3-ba2c8038f70a.mp4	-	5.96	Get on the app, and tell people its story over a nice glass at dinner.
@@ -126,7 +126,7 @@ out += ["FOLDERS",
         "  - Each line is a separate generation, so there is a small jump in pose at every cut. Cover the cuts with B-roll or a punch-in.",
         "  - B02 and B07 were generated on an olive green and re-keyed onto the same green as the rest, so one key setting covers the whole track.",
         "  - The voiceover runs about 69s plus the hook, longer than the 45s in the brief. Speech was not sped up.",
-        "  - The 100-point score (Cosimo Dell'Anna) comes from retailer listings for the 2020 vintage. Check it against the vintage being sold."]
+        "  - The 100-point score is credited to The Italian Wine Guy. Check both scores against the vintage being sold."]
 open("pkg/README.txt", "w").write("\n".join(out) + "\n")
 PY
 
