@@ -35,9 +35,9 @@
   "duration": 6.71
  },
  "B5": {
-  "trim_in": 0.04,
+  "trim_in": 0.06,
   "trim_out": 5.99,
-  "duration": 5.95
+  "duration": 5.93
  },
  "B6": {
   "trim_in": 0.14,
