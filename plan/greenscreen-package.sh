@@ -136,7 +136,8 @@ out += ["FOLDERS",
         "  - Each line is a separate generation, so his pose shifts slightly at every cut. Cover the cuts with B-roll or a punch-in."]
 regreened = [r[0] for r in rows if r[3] != "-"]
 if regreened:
-    out.append(f"  - {', '.join(regreened)} came out on an olive green and were re-keyed onto the same green as the rest, so one key setting covers the whole track.")
+    verb = "was" if len(regreened) == 1 else "were"
+    out.append(f"  - {', '.join(regreened)} came out on an olive green and {verb} re-keyed onto the same green as the rest, so one key setting covers the whole track.")
 if notes:
     out += ["  - " + l.strip() for l in open(notes) if l.strip()]
 open("pkg/README.txt", "w").write("\n".join(out) + "\n")
