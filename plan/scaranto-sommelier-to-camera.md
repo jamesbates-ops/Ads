@@ -33,7 +33,7 @@ Six smaller ZIPs under 30 MB each (H1–H3, B1–B2, B3–B4, B5–B7, B8–B10,
 | B10 | Offer | "Right now, this bottle should be fifty pounds per bottle. Winedrops will do it for twelve pounds. And free delivery." | 7.45 s |
 | B11 | CTA | "When the timer hits zero, this offer's gone. So tap below, and show off when you're next hosting." | 5.69 s |
 
-Hooks plus body run about 1:39 of speech (H1 + B1–B11 ≈ 1:36). Every revoiced clip was checked against a Whisper transcript (all words present, in order) and scanned frame by frame for burned-in text.
+B1–B11 run 1:21; with a hook in front, a full cut is about 1:26–1:27 before any trimming of pauses. Every revoiced clip was checked against a Whisper transcript (all words present, in order) and scanned frame by frame for burned-in text.
 
 ## Notes for the edit
 
