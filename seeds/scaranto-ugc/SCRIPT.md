@@ -25,17 +25,17 @@ Running time is about 52s of A-roll before b-roll.
 
 ## US version (American accent)
 
-Same beats and takes. The British slang is gone, the prices before the close stay currency-free as in the brief, and the close is $120.
+Same beats and takes. The British slang is gone, the prices stay currency-free as in the brief, and the close is $120. The bottle price is "just twenty" so it matches six for under $120.
 
 **Take 1**
 > Sassicaia... and Tignanello. Both of these? Over a hundred and fifty. A BOTTLE. *(incredulous little laugh)* Crazy.
 
 **Take 2**
-> And THIS is Scarànto. Same style, from the same region... but we'll do it for just ten. It's a hundred-point rated, just like Sassicaia, and just like Tignanello. But it's a fraction of the price. It's full-bodied, it's complex, and it's got these tannins that just melt in your mouth... same as the other two. Mm-hmm.
+> And THIS is Scarànto. Same style, from the same region... but we'll do it for just twenty. It's a hundred-point rated, just like Sassicaia, and just like Tignanello. But it's a fraction of the price. It's full-bodied, it's complex, and it's got these tannins that just melt in your mouth... same as the other two. Mm-hmm.
 
 **Take 3**
 > Except you can get TWELVE of these for the price of one Sassicaia. Just in case you missed that: twelve bottles, for the price of one. This bottle is a flawless example of Italian winemaking... and a case of six is yours for under a hundred and twenty dollars. Come on!
 
 ## Notes for sign-off
 - The ad-libs ("Mad" / "Crazy", "Mm-hmm", "Come on!", the laugh, and repeating "twelve bottles, for the price of one") add personality only. They make no new product claims.
-- US maths: "just ten" a bottle against "six for under $120" works out at $20 a bottle. Check which US price is right before this goes live.
+- US pricing: take 2 originally said "just ten", which didn't match six for under $120. The line was changed to "just twenty". At $20 a bottle, "twelve for the price of one Sassicaia" means a Sassicaia price of $240 or more, so check that holds for current US retail.
