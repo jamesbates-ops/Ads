@@ -9,6 +9,7 @@ import argparse, json, os, subprocess, numpy as np
 
 HEAD, TAIL = 0.12, 0.25          # seconds kept before first / after last speech
 LUFS, TP = -14, -1.5             # social-platform loudness target
+THRESH = 30                      # speech = frames within this many dB of the clip's peak
 
 
 def run(cmd):
@@ -20,7 +21,7 @@ def speech_bounds(path):
     a = np.frombuffer(raw, np.int16).astype(float) / 32768
     win = 320  # 20 ms
     db = np.array([20 * np.log10(np.sqrt(np.mean(a[i:i + win] ** 2)) + 1e-9) for i in range(0, len(a) - win, win)])
-    idx = np.where(db > db.max() - 30)[0]
+    idx = np.where(db > db.max() - THRESH)[0]
     return idx[0] * 0.02, (idx[-1] + 1) * 0.02, len(a) / 16000
 
 
@@ -61,7 +62,10 @@ def main():
     ap.add_argument("--hooks", type=int, default=3, help="number of hook clips (H1..Hn)")
     ap.add_argument("--body", type=int, default=8, help="number of body clips (B1..Bn)")
     ap.add_argument("--name", default="primitivo", help="prefix for the full-cut file names")
+    ap.add_argument("--thresh", type=float, default=THRESH,
+                    help="dB below peak counted as speech; lower it for clips with audible room tone")
     args = ap.parse_args()
+    globals()["THRESH"] = args.thresh
     hooks = [f"H{i}" for i in range(1, args.hooks + 1)]
     body = [f"B{i}" for i in range(1, args.body + 1)]
     clips_dir = os.path.join(args.out, "clips")
