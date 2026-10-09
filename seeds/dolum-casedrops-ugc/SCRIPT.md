@@ -30,7 +30,7 @@ Pronunciation: Dolum = DOH-lum · Far Niente = far nee-EN-tay · Caymus = KAY-mu
 
 ## Body
 **Take 2**
-> This is Dolum Estates. It's been likened to the very best Napa Cabs: Far Niente, Opus One, Caymus. But those wines cost hundreds… whereas this one? Under twenty bucks.
+> This is Dolum Estates. It's been likened to the very best Cabs from Napa: Far Niente, Opus One, Caymus. But those wines cost hundreds… whereas this one? Under twenty bucks.
 
 **Take 3**
 > It's California Cab too, using the same grapes and the same growing standards. Chad Alexander, who used to head up winemaking at the elite Stag's Leap, uses every connection he has to source grapes from the regions he trained in. So that means elite grapes, without the prestige label. He's well known, but this wine is just too new to command the same price tag.
@@ -48,6 +48,7 @@ Pronunciation: Dolum = DOH-lum · Far Niente = far nee-EN-tay · Caymus = KAY-mu
 
 ## Changes from the brief
 - Hook 3: "That clock is ticking" became "The clock is ticking", because it now opens the video on its own.
+- Take 2: "the very best Napa Cabs" became "the very best Cabs from Napa". The video model kept saying "Napa *see* Cabs" (the original take and two re-renders), and the new order says the same thing cleanly.
 - "this one I got for under $20" became "this one? Under twenty bucks". The presenter is AI-generated, so a first-person "I got it" reads as a customer testimonial from someone who doesn't exist, which the FTC's 2024 fake-testimonials rule covers.
 - "They come from the same region" became "It's California Cab too". The Dolum label says California, not Napa, so "same region" right after the Napa names would imply Napa grapes.
 - "formerly the head at the elite Stag's Leap" became "who used to head up winemaking at the elite Stag's Leap", for a more natural read aloud.
