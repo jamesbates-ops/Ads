@@ -1,0 +1,72 @@
+{
+ "00_hook1_four-hours": {
+  "trim_in": 0.0,
+  "trim_out": 7.83,
+  "duration": 7.83
+ },
+ "00_hook2_sommelier": {
+  "trim_in": 0.0,
+  "trim_out": 7.99,
+  "duration": 7.99
+ },
+ "00_hook3_clock-ticking": {
+  "trim_in": 0.0,
+  "trim_out": 6.83,
+  "duration": 6.83
+ },
+ "01_this-is-trentacoste_fino": {
+  "trim_in": 0.0,
+  "trim_out": 7.69,
+  "duration": 7.69
+ },
+ "02_120-200_tenner": {
+  "trim_in": 0.24,
+  "trim_out": 10.07,
+  "duration": 9.83
+ },
+ "03_same-bit-of-italy": {
+  "trim_in": 0.38,
+  "trim_out": 6.29,
+  "duration": 5.91
+ },
+ "04_fat-duck_whisper": {
+  "trim_in": 0.0,
+  "trim_out": 9.47,
+  "duration": 9.47
+ },
+ "05_family-estate": {
+  "trim_in": 0.34,
+  "trim_out": 11.99,
+  "duration": 11.65
+ },
+ "06_tasting-notes": {
+  "trim_in": 0.18,
+  "trim_out": 8.81,
+  "duration": 8.63
+ },
+ "07_maroni": {
+  "trim_in": 0.52,
+  "trim_out": 8.06,
+  "duration": 7.54
+ },
+ "08_50-80_winedrops": {
+  "trim_in": 0.18,
+  "trim_out": 6.87,
+  "duration": 6.69
+ },
+ "09_bulk-buying": {
+  "trim_in": 0.18,
+  "trim_out": 9.06,
+  "duration": 8.88
+ },
+ "10_cta": {
+  "trim_in": 0.0,
+  "trim_out": 9.37,
+  "duration": 9.37
+ },
+ "08alt_50-80_casedrops": {
+  "trim_in": 0.18,
+  "trim_out": 7.59,
+  "duration": 7.41
+ }
+}
