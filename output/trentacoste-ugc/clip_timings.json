@@ -1,0 +1,22 @@
+{
+ "H1": {
+  "trim_in": 0.0,
+  "trim_out": 12.06,
+  "duration": 12.06
+ },
+ "B1": {
+  "trim_in": 0.0,
+  "trim_out": 12.22,
+  "duration": 12.22
+ },
+ "B2": {
+  "trim_in": 0.0,
+  "trim_out": 10.08,
+  "duration": 10.08
+ },
+ "B3": {
+  "trim_in": 0.0,
+  "trim_out": 11.07,
+  "duration": 11.07
+ }
+}
