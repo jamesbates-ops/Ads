@@ -10,6 +10,10 @@ Review rough cuts (three takes butted together, loudness matched to about -16 LU
 - `aroll/UK_aroll_roughcut.mp4`, 52s
 - `aroll/US_aroll_roughcut.mp4`, 52s
 
+Download everything at once (the three full-quality takes per version, zipped):
+- UK: https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/b8b7f297-b63c-4899-b8d5-32971b729acd.zip (37 MB)
+- US: https://d2ol7oe51mr4n9.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/b36734cf-09bb-4235-ba69-c5c49ce4e3ee.zip (43 MB, final US takes with both fixes)
+
 Full-quality individual takes (1080×1920, 24 fps, HEVC with native iPhone-style audio). Use these for the edit:
 
 | Take | Length | UK | US |
