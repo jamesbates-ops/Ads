@@ -14,11 +14,11 @@ Full-quality individual takes (1080×1920, 24 fps, HEVC with native iPhone-style
 
 | Take | Length | UK | US |
 |---|---|---|---|
-| 1. Sassicaia and Tignanello, over 150 | 8s | [uk take 1](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_123139_16dc8e8c-06b2-426b-a0cc-a31a68229c64.mp4) | [us take 1](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_123944_b9b9e5f6-4e7c-4c4a-9f74-da0268564ad9.mp4) |
-| 2. Scarànto: same style, 10, 100 pts, taste | 24s | [uk take 2](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_123139_dab860d4-aff2-465d-870f-138af6d08259.mp4) | [us take 2](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_123944_2d4e597e-b9f7-4bb5-b9e8-d97126897468.mp4) |
+| 1. Sassicaia and Tignanello, over 150 | 8s | [uk take 1](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_123139_16dc8e8c-06b2-426b-a0cc-a31a68229c64.mp4) | [us take 1](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_131621_08570658-53f2-4def-9cbc-7c8d226df716.mp4) |
+| 2. Scarànto: same style, 10, 100 pts, taste | 24s | [uk take 2](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_123139_dab860d4-aff2-465d-870f-138af6d08259.mp4) | [us take 2](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_131642_b9dea00c-83f4-49aa-b268-ad687842bdc2.mp4) |
 | 3. 12 for one Sassicaia, case of 6 offer | 20s | [uk take 3](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_123139_22de8066-1cba-43b8-b5a1-469917a6e45a.mp4) | [us take 3](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261009_123944_42998832-18ec-44ab-b05c-c0e19278fcb8.mp4) |
 
-Higgsfield job IDs: UK `16dc8e8c…`, `dab860d4…`, `22de8066…` · US `b9b9e5f6…`, `2d4e597e…`, `42998832…`.
+Higgsfield job IDs: UK `16dc8e8c…`, `dab860d4…`, `22de8066…` · US `08570658…`, `b9dea00c…`, `42998832…`. (Superseded US takes 1 and 2, which came out with a British accent: `b9b9e5f6…`, `2d4e597e…`.)
 
 ## Seed frames
 
@@ -34,7 +34,8 @@ References: `reference/original_shot1_0.1s.jpg` and `reference/original_bottle_c
 ## How it was made
 - Seeds: GPT Image 2.5, high quality, 2K, 9:16. The presenter has long wavy dark-brunette hair, olive skin, small gold hoops and a white ribbed tank top.
 - Takes: Seedance 2.5 image-to-video from the seed frame with native audio, 1080p, one continuous take per clip. The phone is propped on the worktop as a static camera, with ordinary daylight and unretouched skin. The audio is diegetic iPhone-mic sound (room tone, tile echo, glass knocks) with no music.
-- Checks: every take was transcribed and contains every scripted line. Voice pitch is consistent across takes within each version (UK 174–188 Hz, US 180–193 Hz median). Labels stay front-on and legible, there is exactly one bottle per hand, and there is no on-screen text.
+- US accent fix: the first US takes 1 and 2 drifted British, and only take 3 came out American. They were regenerated with a 10s clip of her American voice from US take 3 as a voice reference, an American persona, and American spellings with no mention of "British" in the prompt.
+- Checks: every take was transcribed and contains every scripted line, and no words leaked from the voice reference. An accent classifier (CommonAccent ECAPA) scores every 4s window of every UK take as England and every window of the final US takes as US or Canada. Voice pitch is consistent within each version (UK 174–188 Hz, US 180–188 Hz median). Labels stay front-on and legible, there is exactly one bottle per hand, and there is no on-screen text.
 
 ## Known nits
 - Transcripts spell the wine names oddly ("Scoronto", "Sasukea"), which is normal for the speech-to-text. Have someone listen for the pronunciation of Scarànto before sign-off.
