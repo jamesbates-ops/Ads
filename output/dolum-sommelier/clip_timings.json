@@ -1,0 +1,82 @@
+{
+ "H1_deal-of-the-year": {
+  "trim_in": 0.2,
+  "trim_out": 7.35,
+  "duration": 7.15
+ },
+ "H2_prohibition": {
+  "trim_in": 0.04,
+  "trim_out": 5.95,
+  "duration": 5.91
+ },
+ "H3_94-point": {
+  "trim_in": 0.16,
+  "trim_out": 6.09,
+  "duration": 5.93
+ },
+ "B01_prohibition-1920-1966": {
+  "trim_in": 0.2,
+  "trim_out": 8.57,
+  "duration": 8.37
+ },
+ "B02_mondavi-oakville": {
+  "trim_in": 0.04,
+  "trim_out": 2.41,
+  "duration": 2.37
+ },
+ "B03_rothschild-opus-one": {
+  "trim_in": 0.24,
+  "trim_out": 6.99,
+  "duration": 6.75
+ },
+ "B04_rest-is-history": {
+  "trim_in": 0.4,
+  "trim_out": 9.73,
+  "duration": 9.33
+ },
+ "B05_400-a-bottle": {
+  "trim_in": 0.18,
+  "trim_out": 3.49,
+  "duration": 3.31
+ },
+ "B06_dolum-chad-alexander": {
+  "trim_in": 0.24,
+  "trim_out": 9.67,
+  "duration": 9.43
+ },
+ "B07_oakville-stags-leap": {
+  "trim_in": 0.18,
+  "trim_out": 6.87,
+  "duration": 6.69
+ },
+ "B08_french-oak": {
+  "trim_in": 0.44,
+  "trim_out": 5.25,
+  "duration": 4.81
+ },
+ "B09_flinty-graphite": {
+  "trim_in": 0.3,
+  "trim_out": 6.59,
+  "duration": 6.29
+ },
+ "B10_finish": {
+  "trim_in": 0.34,
+  "trim_out": 8.65,
+  "duration": 8.31
+ },
+ "B11_decanter-94": {
+  "trim_in": 0.04,
+  "trim_out": 5.15,
+  "duration": 5.11
+ },
+ "B12_opus-retail-casedrops": {
+  "trim_in": 0.2,
+  "trim_out": 6.45,
+  "duration": 6.25
+ },
+ "B13_timer-cta": {
+  "trim_in": 0.18,
+  "trim_out": 7.93,
+  "duration": 7.75
+ }
+}
