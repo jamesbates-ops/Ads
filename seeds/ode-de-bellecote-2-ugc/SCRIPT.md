@@ -23,7 +23,7 @@ Take 1 is **three alternative hooks**. Each opens a separate video, followed by 
 | — | — | — | *Jonny clip (editors)* |
 | 6 | 8s | on the counter | Hand-picked daily deals, get yours today |
 
-Pronunciation: Ode de Bellecôte = ohd duh bel-KOHT · Châteauneuf = shah-toh-NUHF · Beaucastel = boh-kass-TELL · Hommage à Jacques Perrin = oh-MAHZH ah zhahk peh-RAN · galets roulés = gah-LAY roo-LAY · sommelier = suh-mul-YAY (US) / suh-MEL-ee-ay (UK).
+Pronunciation: Ode de Bellecôte = ohd duh bell-COAT (written "Ode duh Bell Coat" in the prompts) · Châteauneuf = shat-oh-NUFF (UK) / shah-toh-NUFF (US), spelled that way in the prompt dialogue · Beaucastel = boh-kass-TELL · Hommage à Jacques Perrin = oh-MAHZH ah zhahk peh-RAN · galets roulés = gah-LAY roo-LAY · sommelier = suh-mul-YAY (US) / suh-MEL-ee-ay (UK).
 
 ## UK version (Winedrops, British accent)
 **Hook 1**
