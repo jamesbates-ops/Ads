@@ -4,7 +4,7 @@ Short scroll-stoppers, each a single continuous shot. All clips: 9:16, 1080×192
 
 | # | Clip | Bottle | Len | Video |
 |---|---|---|---|---|
-| 1 | Label peel: hot tap, then label peeled off in one piece | Caymus Cabernet (1L) | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_140526_a9cb285d-7139-49dc-af94-b4e5734a6265.mp4) |
+| 1 | Label peel (v3): bottle stands in the sink under the hot tap; two hands only, one steadies the neck, one peels the label off in one piece | Caymus Cabernet (1L) | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_094839_d7ff5227-690c-4ae4-871c-4e8a2c01b4c9.mp4) |
 | 2 | Label peel | Far Niente Oakville Cabernet | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_140527_1fd50c75-ffec-475b-8df4-00d590cd41e5.mp4) |
 | 3 | Label peel (v2: two hands only, label stays opaque when wet) | Sassicaia | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_143408_2e378db7-ce38-465d-8b0f-f5cb58bef031.mp4) |
 | 4 | Label peel | Tignanello | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_140527_45b2c5a3-f7fa-453d-9ca7-fb574e3b387d.mp4) |
@@ -14,11 +14,12 @@ Short scroll-stoppers, each a single continuous shot. All clips: 9:16, 1080×192
 | 7 | Bandsaw (v2): starts with the bottle intact before the blade; wine pours out as soon as it cuts through | Tignanello | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_143546_e94ce074-bf60-41bc-be05-42d638d2803d.mp4) |
 | 8 | Crème brûlée torch chars the cork top, top-down (take 2, preferred) | Generic | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_140839_9d592b95-bdec-4e54-b0a6-329fa49dcc9d.mp4) |
 | 8b | Torch, take 1 (side angle, subtler char) | Generic | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_140148_cde4cb36-56a6-443a-8516-91a21405991b.mp4) |
-| 9 | Carpet pour (v2): handheld top-down view, neck in from the right of frame only, long pour onto cream carpet | Generic | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_143408_a973721e-a74b-48af-99a7-e9a163ac2816.mp4) |
+| 9 | Carpet pour (v2, take 2): handheld top-down view, neck in from the right of frame only, heavy pour that splatters on the cream carpet | Generic | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_143835_61815a78-94e8-44f4-88bf-c15d1272261f.mp4) |
+| 9b | Carpet pour (v2, take 1): thinner stream, soaks in rather than splashing | Generic | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_143408_a973721e-a74b-48af-99a7-e9a163ac2816.mp4) |
+| 10 | Bandsaw: starts intact before the blade; wine pours out as soon as it cuts through | Caymus Cabernet (1L) | 5s | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_093634_09c9f5dc-9981-446e-a429-7931b0a786cf.mp4) |
 
 ## Notes for the edit
 - **Hammer v2:** the strike lands about 1s in. The broken neck looks fairly clean rather than jagged.
-- **Carpet v2:** the wine soaks into a round stain rather than splashing hard. A second take with a heavier, splashier pour (Higgsfield job 61815a78-94e8-44f4-88bf-c15d1272261f) was still rendering at hand-off.
 - **Sassicaia v2:** once the label is off, the bare glass shows a slightly bumpy patch that reads as glue residue.
 - **Torch take 2:** the flame ignites about 0.8s in rather than on frame one. Trim the head if you want it to open on fire. A thin blank white strip (the top edge of a label, no text) sits at the bottom of the frame.
 - **Ridge** was in the original brief, but no Ridge photo was supplied, so there is no Ridge clip yet.
@@ -36,3 +37,5 @@ Short scroll-stoppers, each a single continuous shot. All clips: 9:16, 1080×192
 - Hammer v1 (bottle upright, starts mid-swing): https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_140526_7a1b4d9d-8fc8-4d27-8394-03126de2aa53.mp4
 - Bandsaw v1 (starts already mostly cut): https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_140526_65c5936d-d83c-4c6f-b80c-017664616b74.mp4
 - Carpet v1 (straight-down pour, short drop): https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_140148_b9123df9-c757-493f-bcc2-979530aa51ed.mp4
+- Caymus peel v1 (third hand appears): https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261015_140526_a9cb285d-7139-49dc-af94-b4e5734a6265.mp4
+- Caymus peel v2 (third hand appears at the base): https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_093202_3a7f3200-9eaf-416b-94de-f30cc5483923.mp4
