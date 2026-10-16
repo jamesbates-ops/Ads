@@ -21,7 +21,7 @@ All clips: 720×1280, 24 fps, AAC 44.1 kHz stereo, Kling native voice. "Speech" 
 | B2-UK | And right now, Winedrops are doing a case of six, for seventy percent off. Instead of two hundred and ninety pounds, it's under seventy pounds. | 12.0s | 0.0–11.1s | `675e3c30-1f7b-4c28-9429-032f548f8caa` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_124220_675e3c30-1f7b-4c28-9429-032f548f8caa.mp4) |
 | B2-US | And right now, Casedrops are doing a case of six, for seventy percent off. Instead of four hundred and twenty dollars, it's under a hundred and twenty dollars. | 13.0s | 0.0–11.5s | `55e9dd1f-b901-416f-9740-172f61bd94cf` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_124220_55e9dd1f-b901-416f-9740-172f61bd94cf.mp4) |
 | B3 | And it's delivered to you for free, fully refundable. | 5.0s | 0.0–4.5s | `4546a4a9-fbdd-4ebe-ac3b-7c7ed1164752` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_124220_4546a4a9-fbdd-4ebe-ac3b-7c7ed1164752.mp4) |
-| B4 | This is Scaranto. It's a Super Tuscan from the foothills of the Alps, made using a long-lost Italian technique. | 9.0s | 0.0–8.8s | `d5fe6a55-f7eb-43bc-9f7a-29a735c374b2` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_124220_d5fe6a55-f7eb-43bc-9f7a-29a735c374b2.mp4) |
+| B4 | This is Scaranto. It's a Super Tuscan grown in the shadow of Pisa, made using a long-lost Italian technique. | 9.0s | 0.0–8.5s | `7d9010c0-97a8-467c-86c2-6d6d580ed91a` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_132159_7d9010c0-97a8-467c-86c2-6d6d580ed91a.mp4) |
 | B5 | They dry the grapes before fermenting, so all the sugars and flavours are highly concentrated. So it tastes so much better than its price. | 11.0s | 0.0–9.7s | `78f7fc7d-851c-4d0e-a2cf-a3cbf71de9ab` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_124221_78f7fc7d-851c-4d0e-a2cf-a3cbf71de9ab.mp4) |
 | B6 | Black cherry, cocoa and vanilla, with a hint of spice on the finish. Big, ripe, and properly satisfying. | 9.0s | 0.0–8.6s | `a5677b45-7b63-45b4-9e72-b0383805aa69` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_131309_a5677b45-7b63-45b4-9e72-b0383805aa69.mp4) |
 | B7 | And it's sitting in the top three percent of wines, in the world. Full stop. | 8.0s | 0.0–7.3s | `013df5ee-3e82-4409-88c7-6df7b7423d4f` | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_124220_013df5ee-3e82-4409-88c7-6df7b7423d4f.mp4) |
@@ -37,6 +37,9 @@ Pick one hook, then run the body in order. Use the **UK** price clip (B2-UK, Win
 
 `H1 | H2 | H3` → B1 → B2-UK / B2-US → B3 → B4 → B5 → B6 → B7 → B8 → B9 → B10
 
+## Deliverables
+- `Scaranto_GreenScreen_UK.zip` and `Scaranto_GreenScreen_US.zip`: 13 clips each (3 hooks + 01–10), named in assembly order, with a README of the script. Shared clips are identical. Only clip 02 (the price line) differs.
+
 ## Notes for the edit
 - Every clip opens on the same neutral pose (the seed frame), so jump cuts between clips match on framing. Cover the joins with b-roll where the pose resets.
 - Keep the spill suppression light around the hair and glasses. The backdrop was prompted to stay flat and evenly lit.
@@ -46,5 +49,5 @@ Pick one hook, then run the body in order. Use the **UK** price clip (B2-UK, Win
 - **B1, Italian names:** a larger transcription model hears "Sassicaia" and "Tignanello" correctly and "Moroni" for Maroni. Treated as OK.
 - **B10, opening word:** "And" is there, but it starts on frame 0 with no lead-in. If it sounds clipped, start the clip at 0.48s on "that".
 - **B6, retake:** the first take (job `1cfe5949-4ccf-49f3-87a6-a076cce45986`) showed a wristwatch that appears in no other clip. The table now points to the retake, which has bare wrists. The first take is kept only as a fallback.
-- **Script copy, B4:** the line calls Scaranto a "Super Tuscan from the foothills of the Alps". Tuscany is not in the Alps, and drying the grapes before fermenting (appassimento) is a Veneto method. Confirm the claim with the brand before this runs.
+- **B4, copy amended:** the line was changed from "from the foothills of the Alps" to "grown in the shadow of Pisa" and the clip re-rendered. The original take (job `d5fe6a55-f7eb-43bc-9f7a-29a735c374b2`) is superseded. The new take shows a wristwatch on his left wrist during gestures; accepted as minor.
 - **Frame check:** all clips reviewed. Flat green, consistent identity and wardrobe, natural gestures.
