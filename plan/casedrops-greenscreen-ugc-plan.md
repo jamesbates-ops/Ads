@@ -4,7 +4,7 @@ Format: single presenter talking straight to camera against a chroma-key green s
 
 Presenter: the supplied reference image (grey swept-back hair, round tortoiseshell glasses, light-blue linen shirt). Every clip uses that image as its start frame, so each one opens on the same pose and the cuts between clips read as standard UGC jump cuts.
 
-Voice: Kling's own voice, prompted as an authoritative British (RP) man in his sixties with a warm baritone. Delivery is deliberate and assured at a conversational pace; the edit tightens the gaps. No voice swap or TTS.
+Voice: Higgsfield preset voice **Grady** on every clip. Kling's native voice drifted in accent from clip to clip, so each Kling clip was run through Higgsfield voice change to Grady. Voice change keeps Kling's timing, lip sync and the words exactly as Kling spoke them, so a word Kling mispronounces stays mispronounced and needs a new Kling take.
 
 Audio: diegetic only. Close mic in a small treated studio: clean voice, a faint hint of room, very low room tone, light clothing rustle on gestures. No music or SFX.
 
@@ -20,7 +20,7 @@ The brief mixed both ads together using `//` as a separator. Split out, each ad 
 
 ### Raptor & Crimson
 
-> Because I finally bought a case of 6 bottles of this Napa Cab for nearly $500 from Casedrops, and I just saw they're selling the same exact bundle for just $120.
+> Because I finally bought a case of 6 bottles of this Napa Cab for over $500 from Casedrops, and I just saw they're selling the same exact bundle for just $120.
 >
 > So this whole box combined costs less than 2 bottles I bought. It's rated 95 points by the top critics and it's in the top 4% of all wines worldwide. And you can choose to drink it now, or rest it on a shelf and let it age for up to 5 years.
 >
@@ -30,7 +30,7 @@ The brief mixed both ads together using `//` as a separator. Split out, each ad 
 
 ### Dolum Estates
 
-> Because I finally bought a case of 6 bottles of this Napa Cab for $360 from Casedrops, and I just saw they're selling the same exact bundle for around 100 bucks.
+> Because I finally bought a case of 6 bottles of this Napa Cab for $360 from Casedrops, and I just saw they're selling the same exact bottle for around 100 bucks.
 >
 > So this whole box combined costs less than 2 bottles I bought. It's rated 95 points by the top critics and it's in the top 4% of all wines worldwide. And you can choose to drink it now, or rest it on a shelf and let it age for up to 5 years.
 >
@@ -40,14 +40,38 @@ The brief mixed both ads together using `//` as a separator. Split out, each ad 
 
 ### Changes from the brief
 
+The opening lines (RC1, D1) are word for word from the brief, as requested. Flagged for the claims check: 6 × $80 = $480, which isn't "over $500", and "the same exact bottle for around 100 bucks" sits oddly next to "$17 a bottle". The only other changes:
+
 | Ad | Brief said | Generated as | Why |
 |---|---|---|---|
-| Raptor & Crimson | "over $500" | "nearly five hundred dollars" | 6 × $80 = $480, so "over $500" contradicted the ad's own "down from $80". |
-| Dolum | "the same exact **bottle** for around 100 bucks" | "the same exact **bundle**" | 6 × $17 = $102. Saying one bottle costs ~$100 contradicts "$17 a bottle" and breaks the "less than 2 bottles" line. |
 | Dolum | "$17 bucks" | "seventeen bucks" | "$17 bucks" reads aloud as "seventeen dollars bucks". |
 | Both | "$", "pts", "4%" and digits | written out as words | Gives the voice model the pronunciation we want. |
 
-## Clips
+## Final clips (Grady voice), in the delivered zip
+
+| File | Line | Source |
+|---|---|---|
+| H1_hook_first-deal | This is why you shouldn't just buy the first deal you see. | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140341_9da8b8b3-2972-49d7-be37-0484c546e332.mp4) |
+| H2_hook_do-your-research | This is why you should always do your research. | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140343_117c497c-61f2-4151-bca6-7d0583bb99e6.mp4) |
+| H3_hook_dont-trust-offers | This is why you shouldn't trust offers online. | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140345_02a7320a-f51f-4d7c-b669-1ddd1cd0270d.mp4) |
+| RC1_raptor_bought-over-500-now-120 | …for over five hundred dollars from Casedrops… for just one hundred and twenty dollars. (new verbatim take) | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140442_803b1f87-abfa-4b83-bfd1-71be8d76fce4.mp4) |
+| D1_dolum_bought-360-now-around-100 | …for three hundred and sixty dollars from Casedrops… the same exact bottle for around a hundred bucks. (new verbatim take) | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_150142_84524f65-bfc2-4316-b5d1-76521f4226f6.mp4) |
+| S1_shared_whole-box-95-points | So this whole box combined… top four percent of all wines worldwide. | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140352_354e8d19-1217-4b75-99e3-448e51e4c532.mp4) |
+| S2_shared_drink-now-or-age | And you can choose to drink it now… up to five years. | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140355_b127c68e-a212-4a01-b9be-7adfc820c797.mp4) |
+| RC2_raptor_name-and-tasting-notes | It's called Raptor and Crimson… wild herbs. | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140401_542cbfa4-15d2-4afd-b9c5-67a6b6373375.mp4) |
+| RC3_raptor_pairing-and-20-a-bottle | It pairs well… twenty bucks a bottle. Down from eighty dollars. You read that right. | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140405_7610b566-4b05-4231-9eb5-3991d60da109.mp4) |
+| D2_dolum_name-line | It's called Dolum Estates, and it's rated higher than Ridge Estates, or Caymus. (Dolum words only) | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140407_799e6b1c-68a9-41e7-a382-20801c3747b9.mp4) |
+| D3_dolum_17-a-bottle | …and it's yours today for seventeen bucks a bottle. Down from sixty dollars. You read that right. (Dolum words only) | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140410_9afd8d21-4150-4289-b2b2-95cca91f170f.mp4) |
+| S3_shared_cta-link-below | That's such good value… link below. | [mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_140358_abec93c2-8109-4282-8a66-812ea1fe5448.mp4) |
+
+Edit order with these files:
+
+- **Raptor & Crimson:** Hook → RC1 → S1 → S2 → RC2 → RC3 → S3
+- **Dolum Estates:** Hook → D1 → S1 → S2 → D2 → RC2 from "It's dark cherry…" (~6.6s) → RC3 up to "…you want to try" (~3.4s) → D3 → S3
+
+The tables below describe the first Kling pass (native voice) that these were made from. Its R1 and D1 have been replaced by the verbatim takes above, so ignore the D1 patch note in the QC section.
+
+## Clips (first Kling pass, native voice)
 
 All clips are 720×1276, 24 fps, AAC 44.1 kHz with Kling's native audio. Every clip starts on the reference frame and ends with the presenter holding eye contact, mouth closed.
 
