@@ -42,7 +42,7 @@ Pick one hook, then run the body in order. Use the **UK** price clip (B2-UK, Win
 - Keep the spill suppression light around the hair and glasses. The backdrop was prompted to stay flat and evenly lit.
 
 ## Open items before lock
-- **Voice: switching to the Grady preset (on hold).** The plan is to run Higgsfield voice_change with preset Grady (`e2a2d2e6-9ed2-59cd-82af-feaa27f8a678`) on every clip, so one voice runs through the whole cut. voice_change keeps the original timing, so lip-sync holds. Only one test has run so far: H1, job `71008249-eed0-4fed-8915-ddce5ac2129b`. Everything else is paused.
+- **Voice: decided. Use the original Kling voice in every clip** (the files linked above). A test revoice of H1 with the Higgsfield "Grady" preset ([mp4](https://d8j0ntlcm91z4.cloudfront.net/user_3IlTIleUqdksHUuNWaJnSBuISip/hf_20261016_124924_71008249-eed0-4fed-8915-ddce5ac2129b.mp4), job `71008249-eed0-4fed-8915-ddce5ac2129b`) was rejected and is not part of the edit.
 - **B1, Italian names:** the auto-transcript heard "Moroni / Sasakaya / Tignanallo". Listen for the pronunciation of Maroni, Sassicaia and Tignanello.
 - **B10, opening word:** the auto-transcript starts at "that means it's buy to get for free". "To/for" is probably how the transcriber hears "two/four", but check whether the opening "And" was dropped.
 - **Script copy, B4:** the line calls Scaranto a "Super Tuscan from the foothills of the Alps". Tuscany is not in the Alps, and drying the grapes before fermenting (appassimento) is a Veneto method. Confirm the claim with the brand before this runs.
